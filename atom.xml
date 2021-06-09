@@ -6,7 +6,7 @@
   <link href="http://xrebirth.github.io/atom.xml" rel="self"/>
   
   <link href="http://xrebirth.github.io/"/>
-  <updated>2021-06-05T19:33:23.452Z</updated>
+  <updated>2021-06-08T16:02:02.398Z</updated>
   <id>http://xrebirth.github.io/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://xrebirth.github.io/posts/4a17b156.html"/>
-    <id>http://xrebirth.github.io/posts/4a17b156.html</id>
-    <published>2021-06-08T17:04:55.651Z</published>
-    <updated>2021-06-05T19:33:23.452Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>数据库构成(01)</title>
@@ -110,30 +90,6 @@
   </entry>
   
   <entry>
-    <title>Git基本使用(02)</title>
-    <link href="http://xrebirth.github.io/posts/94e2c847.html"/>
-    <id>http://xrebirth.github.io/posts/94e2c847.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-08T16:10:12.397Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Git基本使用"><a href="#Git基本使用" class="headerlink" title="Git基本使用"></a>Git基本使用</h1><h3 id="个人日常Git的基本使用"><a href="#个人日常Git的基本使用" class="headerlink" title="个人日常Git的基本使用"></a>个人日常Git的基本使用</h3><h3 id="Git之间的关系："><a href="#Git之间的关系：" class="headerlink" title="Git之间的关系："></a>Git之间的关系：</h3><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/1780672-20200222211257892-559749381.png"></p><h2 id="创建新项目"><a href="#创建新项目" class="headerlink" title="创建新项目"></a>创建新项目</h2><ol><li><p>在<strong>git客户端</strong>或者<strong>CMD命令行</strong>上执行,我们通过命令行进入本地项目目录下，然后执行执行下面的命令，<strong>或</strong>创建已新建好的项目文件，然后再执行下右击项目文件点击打开Git Bash Here，然后执行下面的命令。</p><blockquote><p>git init    初始化git仓库</p><p>(如果发现此项目文件夹下出现一个git的文件<strong>隐藏文件夹</strong>就说明初始化成功了)</p></blockquote></li><li><p>与github仓库连接。</p><blockquote><p>继续在git gash或者CMD命令行上执行以下命令：</p><p>git remote add origin&lt;github/码云项目sh地址&gt;</p><p>(一般这个命令执行成功以后本地仓库的项目便已经同远端仓库的项目保持同步了。不妨登录github/码云上查看)</p></blockquote><p> <strong>注意：前提github/码云</strong>上已经创建远程仓库。</p></li></ol><h2 id="克隆项目"><a href="#克隆项目" class="headerlink" title="克隆项目"></a>克隆项目</h2><ul><li>找到你刚才在记录下的远端仓库的地址,或者再次登录以下界面去复制远端仓库地址;</li></ul><blockquote><p>然后执行一下命令行:</p><p>git clone&lt;项目ssh地址&gt;</p><p><strong>注意：使用cmd/git打开使用gitclone，建议已经创建好项目文件或者cmd中已经到本地项目文件地址。</strong></p></blockquote><h2 id="提交文件到暂存区、本地仓库"><a href="#提交文件到暂存区、本地仓库" class="headerlink" title="提交文件到暂存区、本地仓库"></a>提交文件到暂存区、本地仓库</h2><ul><li>将上述步骤完成以后,我们便可以初步使用git了。可以执行以下命令：</li></ul><blockquote><p>git add -u</p><p>将文件的修改、文件的删除，添加到暂存区。<br>git add .</p><p>将文件的修改，文件的新建，添加到暂存区。<br>git add -A</p><p>将文件的修改，文件的删除，文件的新建，添加到暂存区。</p><p><strong>建议使用git add -Ajiany命令</strong></p></blockquote><blockquote><p>git commit 无法退出</p><p>　　i 插入文字的命令。窗口最一开始打开时是不能输入的。按一下 i 就可以开始输入我们的提交信息啦！</p><p>　　输入完了怎么保存退出呢？</p><p>　　先按一下Esc，退出输入状态。</p><p>　　w 保存命令。将我们输入的提交信息保存。保存完之后，</p><p>　　q 退出窗口。就回到我们最开始的命令界面啦。</p><p>git commit -m “提交信息”</p><p><strong>建议使用git commit -m “提交信息”命令</strong></p></blockquote><blockquote><p>git status</p><p>查看<strong>文件/文件夹在工作区，暂存区</strong>的状态</p></blockquote><h2 id="将本地仓库代码提交到github-码云上"><a href="#将本地仓库代码提交到github-码云上" class="headerlink" title="将本地仓库代码提交到github/码云上"></a>将本地仓库代码提交到github/码云上</h2><ul><li>提交代码命令：</li></ul><blockquote><p>git pull origin main<br>拉取到本地main(主分支)</p><p>git push origin main<br>推送到远程仓库main(主分支)</p><p>git pull</p><p>拉取远程仓库代码到本地</p><p>git push</p><p>将本地仓库推送到远程仓库</p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Git基本使用&quot;&gt;&lt;a href=&quot;#Git基本使用&quot; class=&quot;headerlink&quot; title=&quot;Git基本使用&quot;&gt;&lt;/a&gt;Git基本使用&lt;/h1&gt;&lt;h3 id=&quot;个人日常Git的基本使用&quot;&gt;&lt;a href=&quot;#个人日常Git的基本使用&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="Git" scheme="http://xrebirth.github.io/categories/Git/"/>
-    
-    
-    <category term="Git" scheme="http://xrebirth.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Git安装及配置(01)</title>
     <link href="http://xrebirth.github.io/posts/161b8ec9.html"/>
     <id>http://xrebirth.github.io/posts/161b8ec9.html</id>
@@ -146,6 +102,30 @@
       
       
     <summary type="html">&lt;h1 id=&quot;Git安装及配置&quot;&gt;&lt;a href=&quot;#Git安装及配置&quot; class=&quot;headerlink&quot; title=&quot;Git安装及配置&quot;&gt;&lt;/a&gt;Git安装及配置&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://xuanxuanimages.oss-cn-beijin</summary>
+      
+    
+    
+    
+    <category term="Git" scheme="http://xrebirth.github.io/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="http://xrebirth.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git基本使用(02)</title>
+    <link href="http://xrebirth.github.io/posts/94e2c847.html"/>
+    <id>http://xrebirth.github.io/posts/94e2c847.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-08T16:10:12.397Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git基本使用"><a href="#Git基本使用" class="headerlink" title="Git基本使用"></a>Git基本使用</h1><h3 id="个人日常Git的基本使用"><a href="#个人日常Git的基本使用" class="headerlink" title="个人日常Git的基本使用"></a>个人日常Git的基本使用</h3><h3 id="Git之间的关系："><a href="#Git之间的关系：" class="headerlink" title="Git之间的关系："></a>Git之间的关系：</h3><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/1780672-20200222211257892-559749381.png"></p><h2 id="创建新项目"><a href="#创建新项目" class="headerlink" title="创建新项目"></a>创建新项目</h2><ol><li><p>在<strong>git客户端</strong>或者<strong>CMD命令行</strong>上执行,我们通过命令行进入本地项目目录下，然后执行执行下面的命令，<strong>或</strong>创建已新建好的项目文件，然后再执行下右击项目文件点击打开Git Bash Here，然后执行下面的命令。</p><blockquote><p>git init    初始化git仓库</p><p>(如果发现此项目文件夹下出现一个git的文件<strong>隐藏文件夹</strong>就说明初始化成功了)</p></blockquote></li><li><p>与github仓库连接。</p><blockquote><p>继续在git gash或者CMD命令行上执行以下命令：</p><p>git remote add origin&lt;github/码云项目sh地址&gt;</p><p>(一般这个命令执行成功以后本地仓库的项目便已经同远端仓库的项目保持同步了。不妨登录github/码云上查看)</p></blockquote><p> <strong>注意：前提github/码云</strong>上已经创建远程仓库。</p></li></ol><h2 id="克隆项目"><a href="#克隆项目" class="headerlink" title="克隆项目"></a>克隆项目</h2><ul><li>找到你刚才在记录下的远端仓库的地址,或者再次登录以下界面去复制远端仓库地址;</li></ul><blockquote><p>然后执行一下命令行:</p><p>git clone&lt;项目ssh地址&gt;</p><p><strong>注意：使用cmd/git打开使用gitclone，建议已经创建好项目文件或者cmd中已经到本地项目文件地址。</strong></p></blockquote><h2 id="提交文件到暂存区、本地仓库"><a href="#提交文件到暂存区、本地仓库" class="headerlink" title="提交文件到暂存区、本地仓库"></a>提交文件到暂存区、本地仓库</h2><ul><li>将上述步骤完成以后,我们便可以初步使用git了。可以执行以下命令：</li></ul><blockquote><p>git add -u</p><p>将文件的修改、文件的删除，添加到暂存区。<br>git add .</p><p>将文件的修改，文件的新建，添加到暂存区。<br>git add -A</p><p>将文件的修改，文件的删除，文件的新建，添加到暂存区。</p><p><strong>建议使用git add -Ajiany命令</strong></p></blockquote><blockquote><p>git commit 无法退出</p><p>　　i 插入文字的命令。窗口最一开始打开时是不能输入的。按一下 i 就可以开始输入我们的提交信息啦！</p><p>　　输入完了怎么保存退出呢？</p><p>　　先按一下Esc，退出输入状态。</p><p>　　w 保存命令。将我们输入的提交信息保存。保存完之后，</p><p>　　q 退出窗口。就回到我们最开始的命令界面啦。</p><p>git commit -m “提交信息”</p><p><strong>建议使用git commit -m “提交信息”命令</strong></p></blockquote><blockquote><p>git status</p><p>查看<strong>文件/文件夹在工作区，暂存区</strong>的状态</p></blockquote><h2 id="将本地仓库代码提交到github-码云上"><a href="#将本地仓库代码提交到github-码云上" class="headerlink" title="将本地仓库代码提交到github/码云上"></a>将本地仓库代码提交到github/码云上</h2><ul><li>提交代码命令：</li></ul><blockquote><p>git pull origin main<br>拉取到本地main(主分支)</p><p>git push origin main<br>推送到远程仓库main(主分支)</p><p>git pull</p><p>拉取远程仓库代码到本地</p><p>git push</p><p>将本地仓库推送到远程仓库</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Git基本使用&quot;&gt;&lt;a href=&quot;#Git基本使用&quot; class=&quot;headerlink&quot; title=&quot;Git基本使用&quot;&gt;&lt;/a&gt;Git基本使用&lt;/h1&gt;&lt;h3 id=&quot;个人日常Git的基本使用&quot;&gt;&lt;a href=&quot;#个人日常Git的基本使用&quot; class=&quot;</summary>
       
     
     
@@ -233,50 +213,28 @@
   </entry>
   
   <entry>
-    <title>Table标签(01)</title>
-    <link href="http://xrebirth.github.io/posts/2e463a55.html"/>
-    <id>http://xrebirth.github.io/posts/2e463a55.html</id>
+    <title>方法的覆盖(10.1)</title>
+    <link href="http://xrebirth.github.io/posts/5f8d3e42.html"/>
+    <id>http://xrebirth.github.io/posts/5f8d3e42.html</id>
     <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-08T16:06:56.130Z</updated>
+    <updated>2021-06-08T16:42:50.469Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="第1节：Table标签"><a href="#第1节：Table标签" class="headerlink" title="第1节：Table标签"></a>第1节：Table标签</h1><h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><pre class="line-numbers language-html"><code class="language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100%<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100px<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>10px<span class="token punctuation">"</span></span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>15px<span class="token punctuation">"</span></span> <span class="token attr-name">border</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>1px<span class="token punctuation">"</span></span> <span class="token attr-name">bgcolor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>white<span class="token punctuation">"</span></span> <span class="token attr-name">bordercolor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>blue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>caption</span><span class="token punctuation">></span></span>表格标题<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>caption</span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">aria-rowcount</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">colspan</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span> <span class="token attr-name">bgcolor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>aqua<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>合并2行<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">rowspan</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span> <span class="token attr-name">bgcolor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#ccc<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>合并2列<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="table标签属性："><a href="#table标签属性：" class="headerlink" title="table标签属性："></a>table标签属性：</h2><ul><li><code>width</code>：长度</li><li><code>height</code>：高度</li><li><code>cellspacing</code>：规定单元边沿与单元内容之间的空间，用以像素(px)或百分比(%)</li><li><code>cellpadding</code>：规定单元边沿与其内容之间的空白，用以像素(px)或百分比(%)</li><li><code>border</code>：边框</li><li><code>bordercolor</code>：边框颜色</li><li><code>bgcolor</code>：规定表格单元格的背景颜色</li><li>**<code>colspan</code>**：合并行，输入值：合并几行</li><li>**<code>rowspan</code>**：合并列，输入值：合并几列</li></ul><h2 id="table的子集标签："><a href="#table的子集标签：" class="headerlink" title="table的子集标签："></a>table的子集标签：</h2><ul><li><code>caption</code>：表格标题</li><li><code>th</code>：表头 (<strong>表头与列不同的是表头文字自动加粗文字居中</strong>)</li><li><code>tr</code>：行</li><li><code>td</code>：列</li></ul><p><code>待补充...</code></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;第1节：Table标签&quot;&gt;&lt;a href=&quot;#第1节：Table标签&quot; class=&quot;headerlink&quot; title=&quot;第1节：Table标签&quot;&gt;&lt;/a&gt;第1节：Table标签&lt;/h1&gt;&lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot; class=&quot;head</summary>
-      
-    
-    
-    
-    <category term="HTML" scheme="http://xrebirth.github.io/categories/HTML/"/>
-    
-    
-    <category term="HTML" scheme="http://xrebirth.github.io/tags/HTML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Table总结</title>
-    <link href="http://xrebirth.github.io/posts/c888fdae.html"/>
-    <id>http://xrebirth.github.io/posts/c888fdae.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-08T16:07:23.064Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第2节：Table总结"><a href="#第2节：Table总结" class="headerlink" title="第2节：Table总结"></a>第2节：Table总结</h1><h2 id="Table标签属性总结："><a href="#Table标签属性总结：" class="headerlink" title="Table标签属性总结："></a>Table标签属性总结：</h2><ul><li><code>&lt;tr&gt;</code>不能设置width，但是可以设置height</li><li>如果一行中每个<code>&lt;td&gt;</code>或者<code>&lt;th&gt;</code>每个元素长度不一试着在<code>&lt;table&gt;</code>加上<code>table-layout:fixed</code>注意：这个是style样式表</li></ul><h2 id="a-标签更改字体以及去掉下划线："><a href="#a-标签更改字体以及去掉下划线：" class="headerlink" title="**a**标签更改字体以及去掉下划线："></a>**<code>a</code>**标签更改字体以及去掉下划线：</h2><pre class="line-numbers language-css"><code class="language-css"><span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>    // 更改字体颜色<span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>    // 去掉下划线<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><code>待补充...</code></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="方法的覆盖-override"><a href="#方法的覆盖-override" class="headerlink" title="方法的覆盖(override)"></a>方法的覆盖(override)</h1><ol><li><p>语法：</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">// 父类</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"动物在跑步！！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span>    <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Bird</span> <span class="token keyword">extends</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span> <span class="token comment" spellcheck="true">// 子类</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"鸟在飞行！！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Parrot</span> <span class="token keyword">extends</span> <span class="token class-name">Bird</span> <span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">// 继承于Bird</span>    <span class="token comment" spellcheck="true">// 继承Bird中的方法</span>    <span class="token comment" spellcheck="true">// 由于Bird继承于Animal但是Bird中自身又重写了action所以Parrot类直接继承于Bird方法</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"鹦鹉在学人话..."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AnimalTest</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token comment" spellcheck="true">/**         * 以下是直接重写祖类中的方法         */</span>        <span class="token comment" spellcheck="true">// Animal父类中的方法</span>        Animal animal <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        animal<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// bird继承Animal中action方法并重写action方法</span>        Bird bird <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Bird</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        bird<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">/**         * 以下是间接继承子类中的方法         */</span>        <span class="token comment" spellcheck="true">// 由于Bird继承于Animal但是Bird中自身又重写了action所以Parrot类直接继承于Bird方法</span>        Parrot parrot <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Parrot</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        parrot<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>方法的覆盖又被称为方法重写，英语单词: override【官方的】/overwrite</p></li><li><p>什么时候使用方法重写?</p><ul><li>当父类中的方法已经无法满足当前子类的业务需求,</li><li>子类有必要将父类中继承过来的方法进行重新编写,</li><li>这个重新编写的过程称为方法重写/方法覆盖。</li></ul></li><li><p>什么条件满足之后方法会发生重写呢?【代码满足什么条件之后,就构成方法的覆盖呢?】</p><ul><li><p>方法重写发生在具有继承关系的父子类之间</p></li><li><p>方法重写的时候:</p><p>  <strong>返回值类型相同</strong></p><p>  <strong>方法名相同</strong></p><p>  <strong>形参列表相同</strong></p></li><li><p>访问权限不能更低,可以更高</p></li><li><p>抛出异常不能更多,可以更少。【异常之后才能解释】</p></li></ul></li><li><p>建议方法重写的时候尽量复制粘贴,不要编写,容易出错,导致没有产生覆盖</p></li><li><p>注意：</p><ul><li>私有方法不能继承,所以不能覆盖</li><li>构造方法不能继承,所以不能要盖</li><li>静态方法不存在覆盖【多态之后解释】</li><li>覆盖只针对方法,不谈属性</li></ul></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;第2节：Table总结&quot;&gt;&lt;a href=&quot;#第2节：Table总结&quot; class=&quot;headerlink&quot; title=&quot;第2节：Table总结&quot;&gt;&lt;/a&gt;第2节：Table总结&lt;/h1&gt;&lt;h2 id=&quot;Table标签属性总结：&quot;&gt;&lt;a href=&quot;#Table</summary>
+    <summary type="html">&lt;h1 id=&quot;方法的覆盖-override&quot;&gt;&lt;a href=&quot;#方法的覆盖-override&quot; class=&quot;headerlink&quot; title=&quot;方法的覆盖(override)&quot;&gt;&lt;/a&gt;方法的覆盖(override)&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;语法：&lt;/p&gt;
+&lt;pr</summary>
       
     
     
     
-    <category term="HTML" scheme="http://xrebirth.github.io/categories/HTML/"/>
+    <category term="Java" scheme="http://xrebirth.github.io/categories/Java/"/>
     
     
-    <category term="HTML" scheme="http://xrebirth.github.io/tags/HTML/"/>
+    <category term="Java基础" scheme="http://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
@@ -332,20 +290,18 @@
   </entry>
   
   <entry>
-    <title>方法的覆盖(10.1)</title>
+    <title>package、import的使用(13)</title>
     <link href="http://xrebirth.github.io/posts/5f8d3e42.html"/>
     <id>http://xrebirth.github.io/posts/5f8d3e42.html</id>
     <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-08T16:42:50.469Z</updated>
+    <updated>2021-06-08T16:43:07.662Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="方法的覆盖-override"><a href="#方法的覆盖-override" class="headerlink" title="方法的覆盖(override)"></a>方法的覆盖(override)</h1><ol><li><p>语法：</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">// 父类</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"动物在跑步！！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span>    <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Bird</span> <span class="token keyword">extends</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span> <span class="token comment" spellcheck="true">// 子类</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"鸟在飞行！！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Parrot</span> <span class="token keyword">extends</span> <span class="token class-name">Bird</span> <span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">// 继承于Bird</span>    <span class="token comment" spellcheck="true">// 继承Bird中的方法</span>    <span class="token comment" spellcheck="true">// 由于Bird继承于Animal但是Bird中自身又重写了action所以Parrot类直接继承于Bird方法</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"鹦鹉在学人话..."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AnimalTest</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token comment" spellcheck="true">/**         * 以下是直接重写祖类中的方法         */</span>        <span class="token comment" spellcheck="true">// Animal父类中的方法</span>        Animal animal <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        animal<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// bird继承Animal中action方法并重写action方法</span>        Bird bird <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Bird</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        bird<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">/**         * 以下是间接继承子类中的方法         */</span>        <span class="token comment" spellcheck="true">// 由于Bird继承于Animal但是Bird中自身又重写了action所以Parrot类直接继承于Bird方法</span>        Parrot parrot <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Parrot</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        parrot<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>方法的覆盖又被称为方法重写，英语单词: override【官方的】/overwrite</p></li><li><p>什么时候使用方法重写?</p><ul><li>当父类中的方法已经无法满足当前子类的业务需求,</li><li>子类有必要将父类中继承过来的方法进行重新编写,</li><li>这个重新编写的过程称为方法重写/方法覆盖。</li></ul></li><li><p>什么条件满足之后方法会发生重写呢?【代码满足什么条件之后,就构成方法的覆盖呢?】</p><ul><li><p>方法重写发生在具有继承关系的父子类之间</p></li><li><p>方法重写的时候:</p><p>  <strong>返回值类型相同</strong></p><p>  <strong>方法名相同</strong></p><p>  <strong>形参列表相同</strong></p></li><li><p>访问权限不能更低,可以更高</p></li><li><p>抛出异常不能更多,可以更少。【异常之后才能解释】</p></li></ul></li><li><p>建议方法重写的时候尽量复制粘贴,不要编写,容易出错,导致没有产生覆盖</p></li><li><p>注意：</p><ul><li>私有方法不能继承,所以不能覆盖</li><li>构造方法不能继承,所以不能要盖</li><li>静态方法不存在覆盖【多态之后解释】</li><li>覆盖只针对方法,不谈属性</li></ul></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="package、import的使用"><a href="#package、import的使用" class="headerlink" title="package、import的使用"></a>package、import的使用</h1><h4 id="关于Java语言当中的包机制"><a href="#关于Java语言当中的包机制" class="headerlink" title="关于Java语言当中的包机制"></a>关于Java语言当中的包机制</h4><ol><li><p>包又称为 <code>package</code>，Java中引入 <code>package</code>这种语法机制主要是为了方便程序的管理<br> 不同功能的类被分门别类放到不同的软件包当中,查找比较方便,管理比较方便,易维护</p></li><li><p>定义 package</p><ul><li><p>在Java源程序的第一行上编写package语句。</p></li><li><p>package只能编写一个语句。</p></li><li><p>语法结构:</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">package</span> 包名<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></li><li><p>包名的命名规范:</p><ul><li><p>公司域名倒序+项目名+模块名+功能名;</p></li><li><p>采用这种方式重名的几率较低。因为公司域名具有全球唯一性</p></li><li><p>例如：</p><blockquote><p>com.bjpowernode.oauser.service;<br>org.apache.tomcat.core;</p></blockquote></li></ul></li><li><p>包名要求全部小写,包名也是标识符,必须遵守标识符的命名规则</p></li><li><p>一个包将来对应的是一个目录</p></li><li><p>使用package手动编译及运行Java：</p><ul><li><p>使用<code>package</code>机制之后，类名不在是原来的类名了，类名会变成java文件中定义的<code>package</code>路径</p></li><li><p>编译：javac java源文件路径 (在硬盘上生成一个class文件)</p></li><li><p>手动方式创建Java的package设置的目录，将java字节码文件放到java设置的package目录</p></li><li><p>运行：Java package路径</p></li><li><p>另一种方式(编译+运行)</p><ul><li><p>编译：</p><p>  javac -d 编译之后存放的路径 java源文件路径</p></li><li><p>例如：将F:\Hello World.java文件编译到C:\目录下</p><p>  javac -d C:\ F:\Hello World.java</p></li><li><p>java -d . <em>.java</em></p><p>  将当前的路径中*.java(所有含后缀名java文件)编译之后存放到当前文件目录下</p></li><li><p>运行JVM的类加载器ClassLoader默认从当前路径下加载。<br>  保证先切换到com所在的路径在执行</p></li></ul></li></ul></li><li><p><strong>import</strong>的使用</p><ul><li><p>什么时候使用<code>import</code></p><p>  想要调用一个类但是这个类，并且不在同一个包下的时候，需要使用 <code>import</code>进行引入</p></li></ul></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;方法的覆盖-override&quot;&gt;&lt;a href=&quot;#方法的覆盖-override&quot; class=&quot;headerlink&quot; title=&quot;方法的覆盖(override)&quot;&gt;&lt;/a&gt;方法的覆盖(override)&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;语法：&lt;/p&gt;
-&lt;pr</summary>
+    <summary type="html">&lt;h1 id=&quot;package、import的使用&quot;&gt;&lt;a href=&quot;#package、import的使用&quot; class=&quot;headerlink&quot; title=&quot;package、import的使用&quot;&gt;&lt;/a&gt;package、import的使用&lt;/h1&gt;&lt;h4 id=&quot;关于Jav</summary>
       
     
     
@@ -370,30 +326,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;final修饰符&quot;&gt;&lt;a href=&quot;#final修饰符&quot; class=&quot;headerlink&quot; title=&quot;final修饰符&quot;&gt;&lt;/a&gt;final修饰符&lt;/h1&gt;&lt;h2 id=&quot;关于java语言当中final关键字&quot;&gt;&lt;a href=&quot;#关于java语言当中f</summary>
-      
-    
-    
-    
-    <category term="Java" scheme="http://xrebirth.github.io/categories/Java/"/>
-    
-    
-    <category term="Java基础" scheme="http://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>package、import的使用(13)</title>
-    <link href="http://xrebirth.github.io/posts/5f8d3e42.html"/>
-    <id>http://xrebirth.github.io/posts/5f8d3e42.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-08T16:43:07.662Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="package、import的使用"><a href="#package、import的使用" class="headerlink" title="package、import的使用"></a>package、import的使用</h1><h4 id="关于Java语言当中的包机制"><a href="#关于Java语言当中的包机制" class="headerlink" title="关于Java语言当中的包机制"></a>关于Java语言当中的包机制</h4><ol><li><p>包又称为 <code>package</code>，Java中引入 <code>package</code>这种语法机制主要是为了方便程序的管理<br> 不同功能的类被分门别类放到不同的软件包当中,查找比较方便,管理比较方便,易维护</p></li><li><p>定义 package</p><ul><li><p>在Java源程序的第一行上编写package语句。</p></li><li><p>package只能编写一个语句。</p></li><li><p>语法结构:</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">package</span> 包名<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></li><li><p>包名的命名规范:</p><ul><li><p>公司域名倒序+项目名+模块名+功能名;</p></li><li><p>采用这种方式重名的几率较低。因为公司域名具有全球唯一性</p></li><li><p>例如：</p><blockquote><p>com.bjpowernode.oauser.service;<br>org.apache.tomcat.core;</p></blockquote></li></ul></li><li><p>包名要求全部小写,包名也是标识符,必须遵守标识符的命名规则</p></li><li><p>一个包将来对应的是一个目录</p></li><li><p>使用package手动编译及运行Java：</p><ul><li><p>使用<code>package</code>机制之后，类名不在是原来的类名了，类名会变成java文件中定义的<code>package</code>路径</p></li><li><p>编译：javac java源文件路径 (在硬盘上生成一个class文件)</p></li><li><p>手动方式创建Java的package设置的目录，将java字节码文件放到java设置的package目录</p></li><li><p>运行：Java package路径</p></li><li><p>另一种方式(编译+运行)</p><ul><li><p>编译：</p><p>  javac -d 编译之后存放的路径 java源文件路径</p></li><li><p>例如：将F:\Hello World.java文件编译到C:\目录下</p><p>  javac -d C:\ F:\Hello World.java</p></li><li><p>java -d . <em>.java</em></p><p>  将当前的路径中*.java(所有含后缀名java文件)编译之后存放到当前文件目录下</p></li><li><p>运行JVM的类加载器ClassLoader默认从当前路径下加载。<br>  保证先切换到com所在的路径在执行</p></li></ul></li></ul></li><li><p><strong>import</strong>的使用</p><ul><li><p>什么时候使用<code>import</code></p><p>  想要调用一个类但是这个类，并且不在同一个包下的时候，需要使用 <code>import</code>进行引入</p></li></ul></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;package、import的使用&quot;&gt;&lt;a href=&quot;#package、import的使用&quot; class=&quot;headerlink&quot; title=&quot;package、import的使用&quot;&gt;&lt;/a&gt;package、import的使用&lt;/h1&gt;&lt;h4 id=&quot;关于Jav</summary>
       
     
     
@@ -496,6 +428,78 @@
 &lt;li&gt;&lt;p&gt;语法格式：&lt;br&gt; [修饰符] abstract class  类名{}&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;抽象类</summary>
+      
+    
+    
+    
+    <category term="Java" scheme="http://xrebirth.github.io/categories/Java/"/>
+    
+    
+    <category term="Java基础" scheme="http://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>接口(18)</title>
+    <link href="http://xrebirth.github.io/posts/5f8d3e42.html"/>
+    <id>http://xrebirth.github.io/posts/5f8d3e42.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-08T16:43:30.767Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h1><h2 id="官方解释"><a href="#官方解释" class="headerlink" title="官方解释"></a>官方解释</h2><ul><li><p>接口，是Java语言中一种引用类型，是方法的集合，如果说类的内部封装了成员变量、构造方法和成员方法，那么接口的内部主要就是<strong>封装了方法</strong>，包含抽象方法（JDK 7及以前），默认方法和静态方法（JDK 8），私有方法（JDK 9）<strong>后面在学jdk新特性</strong></p></li><li><p>接口的定义，它与定义类方式相似，但是使用 <code>interface</code> 关键字。它也会被编译成.class文件，但一定要明确它并不是类，而是另外一种引用数据类型。    </p></li><li><p>接口的使用，它不能创建对象，但是可以被实现（ <code>implements</code> ，类似于被继承）。一个实现接口的类（可以看做是接口的子类），需要实现接口中所有的抽象方法，创建该类对象，就可以调用方法了，否则它必须是一个抽象<br>  类。  </p></li></ul><h2 id="语法格式："><a href="#语法格式：" class="headerlink" title="语法格式："></a>语法格式：</h2><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">interface</span> 接口名称 <span class="token punctuation">{</span><span class="token comment" spellcheck="true">// 抽象方法</span><span class="token comment" spellcheck="true">// 常量</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><h2 id="接口具体语法："><a href="#接口具体语法：" class="headerlink" title="接口具体语法："></a>接口具体语法：</h2><ol><li><p>接口也是一种引用类型，可以等同看做类</p></li><li><p><strong>接口也是一种引用”数据类型”，编译之后也是一个class字节码文件，但并不是类</strong></p></li><li><p>接口中只能出现：常量、抽象方法</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">Interface</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">final</span> <span class="token keyword">int</span> A<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">// 定义一个常量</span>    <span class="token keyword">double</span> PI<span class="token operator">=</span><span class="token number">3.14</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">// 这里定义常量省略public static final，但是系统自动会给你加上</span>    <span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">void</span> <span class="token function">m1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment" spellcheck="true">// 定义一个抽象方法</span>    <span class="token keyword">void</span>  <span class="token function">m2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                     <span class="token comment" spellcheck="true">// 里定义常量省略public abstract，但是系统自动会给你加上</span>    <span class="token comment" spellcheck="true">// 注意: 在接口中没有成员变量、方法，也无法被实例化</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>接口其实是一个特殊的抽象类，特殊在接口是完全抽象的</p></li><li><p>接口中没有构造方法，无法被实例化</p></li><li><p>接口和接口直接可以实现多继承</p></li><li><p>一个类中可以实现多个接口，(这里的”实现”可以等同看作”继承”)</p></li><li><p>一个非抽象的类实现接口，需要将接口中所有的方法”实现/重写/覆盖”</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">interface</span> <span class="token class-name">A</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">void</span> <span class="token function">m3</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token keyword">interface</span> <span class="token class-name">B</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">void</span> <span class="token function">m4</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token keyword">interface</span> <span class="token class-name">C</span> <span class="token keyword">extends</span> <span class="token class-name">B</span><span class="token punctuation">,</span>A<span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">void</span> <span class="token function">m5</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">// a类继承A，并覆盖A中的m3方法</span><span class="token keyword">class</span> <span class="token class-name">a</span> <span class="token keyword">implements</span> <span class="token class-name">A</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">m3</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">// b类继承接口c，但由于接口c中继承了a、b种方法，所以所以b类继承接口c需要将a、b、c类中所有方法进行覆盖</span><span class="token keyword">class</span> <span class="token class-name">b</span> <span class="token keyword">implements</span> <span class="token class-name">C</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">m3</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">m4</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">m5</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ol><h2 id="接口的作用"><a href="#接口的作用" class="headerlink" title="接口的作用"></a>接口的作用</h2><ol><li><p>可以使项目分层，所有层都面向接口开发，开发效率提高了</p></li><li><p>接口使代码和代码之间的耦合度降低，就像内存条和主板的关系，变得“可插拔可以随意切换。</p></li><li><p>接口更像是一个规范两者之间的规范</p><p> <img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-2.jpg" alt="现实生活例子"></p><p> <img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg" alt="接口作用"></p></li><li><p>如果接口和抽象类都能完成某个功能，优先选择接口</p><p> 因为接口可以多实现，多继承，并且一个类除了实现接口之外，还可以去继承其他类(保留了类的继承)</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;接口&quot;&gt;&lt;a href=&quot;#接口&quot; class=&quot;headerlink&quot; title=&quot;接口&quot;&gt;&lt;/a&gt;接口&lt;/h1&gt;&lt;h2 id=&quot;官方解释&quot;&gt;&lt;a href=&quot;#官方解释&quot; class=&quot;headerlink&quot; title=&quot;官方解释&quot;&gt;&lt;/a&gt;官方解释&lt;/h</summary>
+      
+    
+    
+    
+    <category term="Java" scheme="http://xrebirth.github.io/categories/Java/"/>
+    
+    
+    <category term="Java基础" scheme="http://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象(01)</title>
+    <link href="http://xrebirth.github.io/posts/5f8d3e42.html"/>
+    <id>http://xrebirth.github.io/posts/5f8d3e42.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-08T16:40:10.664Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="面向对象及面向过程区别"><a href="#面向对象及面向过程区别" class="headerlink" title="面向对象及面向过程区别"></a>面向对象及面向过程区别</h1><h2 id="面向过程：主要是关注点是：实现的具体的过程，因果关系"><a href="#面向过程：主要是关注点是：实现的具体的过程，因果关系" class="headerlink" title="面向过程：主要是关注点是：实现的具体的过程，因果关系"></a>面向过程：主要是关注点是：实现的具体的过程，因果关系</h2><ol><li><p>例子：</p><ul><li><p>例1：</p><p>  集成显卡的开发思路：<br>  集成显卡是焊接在主板上，如果集成显卡坏了，整块主板就坏了。</p></li><li><p>例2：</p><p>  蛋炒饭：<br>  客户如果点了一份蛋炒饭，然后做好了，但是客户突然想吃蛋炒饭里的“米”不吃炒的鸡蛋，但是鸡蛋和米饭粘合在一起了，难以分离。</p></li></ul></li><li><p>面向过程开发优点：对于业务逻辑比较简单的程序，可以达到快速开发，前期拖入成本低。</p></li><li><p>面向过程开发缺点：采用面向过程的方式很难解决非常复杂的业务逻辑，另外没面向过程的方式导致软件元素之间的“耦合度”非常高，只要其中一环出问题，整个系统受影响，导致最终的软件”扩展力“差。另外，由于没有独立体的概念，所以无法达到组件的服用。</p></li><li><p>个人理解名词:</p><ul><li><p>耦合度：</p><p>  拿以上的例子蛋炒饭鸡蛋和米饭无法分离，因为鸡蛋和米饭谁都离不开谁了这个依赖关系称之为”耦合度”。</p></li><li><p>扩展力：</p></li><li><p>还是以上蛋炒饭的例子，因为蛋炒饭无法放其他东西，例：像rice就以可以随便添加鱼香肉丝，西红柿炒鸡蛋这样的菜。像这种可延伸性称之为扩展力。</p></li></ul></li></ol><h2 id="面向对象：主要关注点是：主要关注对象【独立体】能完成哪些功能。"><a href="#面向对象：主要关注点是：主要关注对象【独立体】能完成哪些功能。" class="headerlink" title="面向对象：主要关注点是：主要关注对象【独立体】能完成哪些功能。"></a>面向对象：主要关注点是：主要关注对象【独立体】能完成哪些功能。</h2><ol><li><p>例子：</p><ul><li><p>例1：</p><p>  独立显卡开发思路：</p><p>  在一个主机中如果主机失去独立显卡也可以正常使用，像这种可延伸性、可扩展性、的东西叫做面向对象。</p></li><li><p>例2：</p><p>  米饭：</p><p>  客户可以要求做饭人根据个人喜好添加不同的菜码，像这种灵活性较高、可扩展性、的东西叫做面向对象。</p></li></ul></li><li><p>面向对象优点：耦合度低，扩展力强。更容易解决现实世界当中更复杂的业务逻辑、组件性更强。</p></li><li><p>面向对象缺点：前期投入成本较高，需要进行独立体的抽取、以及大量系统的分析与设计。</p></li><li><p>C语言是纯面向对象—&gt; C++是半面向对象 —&gt; Java是纯面向对象</p></li></ol><h2 id="面向对象的介绍："><a href="#面向对象的介绍：" class="headerlink" title="面向对象的介绍："></a>面向对象的介绍：</h2><ol><li><p>面向对象的三大特征：</p><ul><li>封装</li><li>继承</li><li>多态</li><li>所有面向对象的编程语言都有这三大特征。</li></ul></li><li><p>采用面向对象的方式开发一个软件，声明周期当中：【整个声明周期中贯穿使用oo面向对象方式】</p><ul><li>面向对象的分析：OOA</li><li>面向对象的设计：OOD</li><li>面向对象的编程：OOP</li></ul></li><li><p>类和对象的概念</p><ol><li>类的概念：<ul><li>类在现实世界当中是不存在的,是一个模板,是一个概念。是人类大脑思考抽象的结果。</li><li>类代表了一类事物。</li><li>在现实世界当中,对象A与对象B之间具有共同特征,进行抽象总结出一个模板,这个模板被称为类</li></ul></li></ol></li><li><p>对象概念：</p><ol><li>对象是实际存在的个体。现实世界当中实际存在。</li><li>描述一下整个软件开发的过程：<ul><li>程序员先观察现实世界,从现实世界当中寻找对象</li><li>寻找了N多个对象之后,发现所有的对象都有共同特征</li><li>程序员在大脑中形成了一个模板【类】</li><li>Java程序员可以通过Java代码来表述一个类</li><li>Java程序中有了类的定义</li><li>然后通过类就可以创建对象</li><li>有了对象之后,可以让对象直接协作起来形成一个系统</li></ul></li><li>类到对象的过程<ul><li>类 —&gt; 【实例化】 —&gt; 对象</li><li>对象又被称之为实例【instance】</li><li>对象—&gt; 【抽象化】 —&gt; 类</li></ul></li><li>个人理解：</li></ol><p> 程序员把现实世界中一个种族/种类的共同特征通过代码方式记录下来，例如：种族：人、特征：升高、体重、爱好、性别、肤色、…把他们属性创建成一个类然后通过一个类创建一个人的信息，这个从类创建到对象过程叫做创建一个实例化【创建个例子的意思】，而对象到类是一种抽象类的东西</p></li><li><p>总结类与对象的概念：</p><ol><li>类描述的是对象的共同特征</li><li>共同特征：例如：升高、体重、爱好、性别、肤色等…</li><li>这个身高特征在访问的时候,必须先创建对象,通过对象去访问这个特征</li><li>因为这个特征具体的某个对象上之后,值不同。有的对象身高1.80,有的<br> 对象身高2.80等…</li><li>一个类主要描述什么信息呢?<ul><li>一个类主要描述：状态+动作</li><li>状态信息：名字、身高、性别、年龄【类中的属性】</li><li>动作信息：吃、唱歌、跳舞、学习【类中的方法】</li></ul></li><li>现实生活转换成抽象概念<ul><li>状态  —&gt;  一个类的属性</li><li>动作  —&gt;  一个类的方法</li></ul></li></ol></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;面向对象及面向过程区别&quot;&gt;&lt;a href=&quot;#面向对象及面向过程区别&quot; class=&quot;headerlink&quot; title=&quot;面向对象及面向过程区别&quot;&gt;&lt;/a&gt;面向对象及面向过程区别&lt;/h1&gt;&lt;h2 id=&quot;面向过程：主要是关注点是：实现的具体的过程，因果关系&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="Java" scheme="http://xrebirth.github.io/categories/Java/"/>
+    
+    
+    <category term="Java基础" scheme="http://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>类和对象的概念附Java命名规范(02)</title>
+    <link href="http://xrebirth.github.io/posts/117bb08e.html"/>
+    <id>http://xrebirth.github.io/posts/117bb08e.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-08T16:42:12.869Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="类和对象的概念附Java命名规范"><a href="#类和对象的概念附Java命名规范" class="headerlink" title="类和对象的概念附Java命名规范"></a>类和对象的概念附Java命名规范</h1><h2 id="类的定义【从这里开始编写代码】"><a href="#类的定义【从这里开始编写代码】" class="headerlink" title="类的定义【从这里开始编写代码】"></a>类的定义【从这里开始编写代码】</h2><ol><li><h3 id="语法格式："><a href="#语法格式：" class="headerlink" title="语法格式："></a>语法格式：</h3></li></ol><pre><code>```java [修饰符列表] class 类名 {        属性;        方法;    }```</code></pre><ol start="2"><li><h3 id="例如：学生类：描述所有学生对象的共同特征"><a href="#例如：学生类：描述所有学生对象的共同特征" class="headerlink" title="例如：学生类：描述所有学生对象的共同特征"></a>例如：学生类：描述所有学生对象的共同特征</h3><ul><li>学号【int】</li><li>名字【String】</li><li>性别【boolean】</li><li>年龄【int】</li><li>住址【String】</li><li>等…</li></ul></li><li><h3 id="重点：-成员变量通常是采用一个变量的形式来完成定义的"><a href="#重点：-成员变量通常是采用一个变量的形式来完成定义的" class="headerlink" title="重点： 成员变量通常是采用一个变量的形式来完成定义的"></a>重点： 成员变量通常是采用一个变量的形式来完成定义的</h3><ul><li>int no[学号]</li><li>int age[年龄]</li><li>String name[名字]</li><li>String address[住址]</li><li>boolean sex[年龄]</li></ul></li><li><h3 id="数据类型："><a href="#数据类型：" class="headerlink" title="数据类型："></a>数据类型：</h3></li></ol><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B.png" alt="数据类型"></p><p>  引用数据类型(以下理解为新手可以这样理解，但是严格意义不准确)：<br>      String.class     SUN【甲骨文工资】提供的<br>      System.class    SUN【甲骨文工资】提供的</p><ol start="5"><li><h3 id="Java命名规范"><a href="#Java命名规范" class="headerlink" title="Java命名规范"></a>Java命名规范</h3></li></ol><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/%E5%9B%BE%E5%B1%82%203.png" alt="java命名规范"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;类和对象的概念附Java命名规范&quot;&gt;&lt;a href=&quot;#类和对象的概念附Java命名规范&quot; class=&quot;headerlink&quot; title=&quot;类和对象的概念附Java命名规范&quot;&gt;&lt;/a&gt;类和对象的概念附Java命名规范&lt;/h1&gt;&lt;h2 id=&quot;类的定义【从这里开</summary>
       
     
     
