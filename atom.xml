@@ -138,30 +138,6 @@
   </entry>
   
   <entry>
-    <title>Git基本常用命令集(03)</title>
-    <link href="https://xrebirth.github.io/posts/e80658dd.html"/>
-    <id>https://xrebirth.github.io/posts/e80658dd.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-09T13:15:54.245Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Git基本常用命令集"><a href="#Git基本常用命令集" class="headerlink" title="Git基本常用命令集"></a>Git基本常用命令集</h1><h2 id="基本常用命令："><a href="#基本常用命令：" class="headerlink" title="基本常用命令："></a>基本常用命令：</h2><p>git init    初始化git仓库</p><p>如果第一次与仓库连接使用以下命令：</p><ol><li>git remote add origin &lt;github远程仓库地址&gt; 将本地仓库与远程仓库连接</li><li> git branch -M main 将主分支名称master修改为main</li><li>git push -u origin main  推送远程仓库</li></ol><p>本地仓库命令：</p><ol><li><p>将所有文件添加到暂存区<br> git add .    </p></li><li><p>提交到本地仓库<br> git commit -m “提交信息”    </p></li><li><p>推送到远程仓库<br> git push</p></li></ol><p>克隆仓库命令：</p><ol><li>克隆当前仓库：<br> git clone &lt;项目ssh地址&gt;    </li><li>克隆所有仓库：<br> 待学习…</li></ol><h2 id="分支常用命令："><a href="#分支常用命令：" class="headerlink" title="分支常用命令："></a>分支常用命令：</h2><ol><li>切换分支 git checkout 分支名</li><li>删除分支 git branch -d 分支名</li><li>查看本地分支 git branch</li><li>查看远程分支 git branch -a</li><li>创建分支 git branch 分支名</li><li>创建+切换分支 git checkout -b</li><li>删除分支 git breach -d 分支名</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Git基本常用命令集&quot;&gt;&lt;a href=&quot;#Git基本常用命令集&quot; class=&quot;headerlink&quot; title=&quot;Git基本常用命令集&quot;&gt;&lt;/a&gt;Git基本常用命令集&lt;/h1&gt;&lt;h2 id=&quot;基本常用命令：&quot;&gt;&lt;a href=&quot;#基本常用命令：&quot; class</summary>
-      
-    
-    
-    
-    <category term="Git" scheme="https://xrebirth.github.io/categories/Git/"/>
-    
-    
-    <category term="Git" scheme="https://xrebirth.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Github实用小技巧(04)</title>
     <link href="https://xrebirth.github.io/posts/93839e01.html"/>
     <id>https://xrebirth.github.io/posts/93839e01.html</id>
@@ -184,6 +160,30 @@
     
     
     <category term="Github" scheme="https://xrebirth.github.io/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git基本常用命令集(03)</title>
+    <link href="https://xrebirth.github.io/posts/e80658dd.html"/>
+    <id>https://xrebirth.github.io/posts/e80658dd.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-09T13:15:54.245Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git基本常用命令集"><a href="#Git基本常用命令集" class="headerlink" title="Git基本常用命令集"></a>Git基本常用命令集</h1><h2 id="基本常用命令："><a href="#基本常用命令：" class="headerlink" title="基本常用命令："></a>基本常用命令：</h2><p>git init    初始化git仓库</p><p>如果第一次与仓库连接使用以下命令：</p><ol><li>git remote add origin &lt;github远程仓库地址&gt; 将本地仓库与远程仓库连接</li><li> git branch -M main 将主分支名称master修改为main</li><li>git push -u origin main  推送远程仓库</li></ol><p>本地仓库命令：</p><ol><li><p>将所有文件添加到暂存区<br> git add .    </p></li><li><p>提交到本地仓库<br> git commit -m “提交信息”    </p></li><li><p>推送到远程仓库<br> git push</p></li></ol><p>克隆仓库命令：</p><ol><li>克隆当前仓库：<br> git clone &lt;项目ssh地址&gt;    </li><li>克隆所有仓库：<br> 待学习…</li></ol><h2 id="分支常用命令："><a href="#分支常用命令：" class="headerlink" title="分支常用命令："></a>分支常用命令：</h2><ol><li>切换分支 git checkout 分支名</li><li>删除分支 git branch -d 分支名</li><li>查看本地分支 git branch</li><li>查看远程分支 git branch -a</li><li>创建分支 git branch 分支名</li><li>创建+切换分支 git checkout -b</li><li>删除分支 git breach -d 分支名</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Git基本常用命令集&quot;&gt;&lt;a href=&quot;#Git基本常用命令集&quot; class=&quot;headerlink&quot; title=&quot;Git基本常用命令集&quot;&gt;&lt;/a&gt;Git基本常用命令集&lt;/h1&gt;&lt;h2 id=&quot;基本常用命令：&quot;&gt;&lt;a href=&quot;#基本常用命令：&quot; class</summary>
+      
+    
+    
+    
+    <category term="Git" scheme="https://xrebirth.github.io/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="https://xrebirth.github.io/tags/Git/"/>
     
   </entry>
   
@@ -290,30 +290,6 @@
   </entry>
   
   <entry>
-    <title>final修饰符(12)</title>
-    <link href="https://xrebirth.github.io/posts/5f8d3e42.html"/>
-    <id>https://xrebirth.github.io/posts/5f8d3e42.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-08T16:43:03.041Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="final修饰符"><a href="#final修饰符" class="headerlink" title="final修饰符"></a>final修饰符</h1><h2 id="关于java语言当中final关键字"><a href="#关于java语言当中final关键字" class="headerlink" title="关于java语言当中final关键字:"></a>关于java语言当中final关键字:</h2><ol><li><p>final是个关键字,表示”最终的，不可变的”</p></li><li><p>final修饰的类无法被继承</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">final</span> <span class="token keyword">class</span>  <span class="token class-name">Animal</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">/*// 编译报错class Cat extends Animal {}*/</span><span class="token comment" spellcheck="true">// </span><span class="token comment" spellcheck="true">//正确写法(Cat无法继承Animal)：</span><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>final修饰的方法无法被重写/覆盖</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">a</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">final</span> <span class="token keyword">void</span> <span class="token function">b</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"HelloWold！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">class</span> <span class="token class-name">b</span> <span class="token keyword">extends</span> <span class="token class-name">a</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">b</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token comment" spellcheck="true">// 'b()' 无法重写 'study_exercise.objectexercise.exercisefinal.a' 中的 'b()'；重写的方法为 final</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>final修饰的变量一旦之后,不可重新赋值【不可二次赋值】</p><pre class="line-numbers language-java"><code class="language-java">        <span class="token comment" spellcheck="true">// 第一种写法</span>        <span class="token keyword">final</span> <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// a = 15; // 无法将值赋给 final 变量 'a'</span>        <span class="token comment" spellcheck="true">// 第二种写法：</span>        <span class="token keyword">final</span> <span class="token keyword">int</span> b<span class="token punctuation">;</span>        b<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>final修饰的实例变量：</p><ul><li><p>综合考虑，java语言最终规定实例变量使用final修饰之后,必须手动赋值,不能采用系统默认值。</p></li><li><p>因为默认构造函数在构造方法时候会将成员变量赋值所以Sun公司综合考虑让开发人员自行赋值，否则会编译错误！</p></li><li><p>两种写法：</p><pre class="line-numbers language-java"><code class="language-java">    <span class="token comment" spellcheck="true">// 第一种写法：</span>    <span class="token keyword">final</span> <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">// 第二种写法：</span>    <span class="token keyword">final</span> <span class="token keyword">int</span> b<span class="token punctuation">;</span>    <span class="token keyword">public</span> <span class="token function">Test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token keyword">this</span><span class="token punctuation">.</span>b<span class="token operator">=</span><span class="token number">100</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token comment" spellcheck="true">/**        总结以上两种写法：     * 第一种写法：     *  - 直接将成员变量直接赋值给了a，但是程序执行这句话实际是在构造函数中执行进行赋值的.     * 第二种写法：     *  - 直接在构造函数中赋值     *  总结：     *  以上两种情况其实在程序运行过程中都一样，只不过一个直接赋值一个写在构造函数中.     */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></li><li><p>final修饰的引用,一旦指向某个对象之后,不能再指向其它对象,那么被指向的对象无法被垃圾回收器回收。<br> 注意：<strong>final修饰的引用虽然指向某个对象之后不能指向其它对象,但是所指向的对象内部的内存是可以被修改的。</strong><br> 例如：</p><pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">// 加final实例化对象</span>        <span class="token keyword">final</span> Animal animal1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// animal1 = new Animal(20); // 编译报错：一旦使用final创建对象不能，不能指向其他对象</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>animal1<span class="token punctuation">.</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>        animal1<span class="token punctuation">.</span>a<span class="token operator">=</span><span class="token number">2300</span><span class="token punctuation">;</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>animal1<span class="token punctuation">.</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">/**         * 总结：         * final修饰的引用虽然指向某个对象之后不能指向其它对象,但是所指向的对象内部的内存是可以被修改的。         */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>final用法之常量的使用：</p><p> <strong>常量的定义语法格式:</strong></p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">final</span> <span class="token keyword">static</span> 类型 常量名 <span class="token operator">=</span> 值<span class="token punctuation">;</span><span class="token comment" spellcheck="true">// 提示：Java规范中要求所有常量的名字全部大写,每个单词之问使用下划线_连接</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;final修饰符&quot;&gt;&lt;a href=&quot;#final修饰符&quot; class=&quot;headerlink&quot; title=&quot;final修饰符&quot;&gt;&lt;/a&gt;final修饰符&lt;/h1&gt;&lt;h2 id=&quot;关于java语言当中final关键字&quot;&gt;&lt;a href=&quot;#关于java语言当中f</summary>
-      
-    
-    
-    
-    <category term="Java" scheme="https://xrebirth.github.io/categories/Java/"/>
-    
-    
-    <category term="Java基础" scheme="https://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>package、import的使用(13)</title>
     <link href="https://xrebirth.github.io/posts/5f8d3e42.html"/>
     <id>https://xrebirth.github.io/posts/5f8d3e42.html</id>
@@ -326,6 +302,30 @@
       
       
     <summary type="html">&lt;h1 id=&quot;package、import的使用&quot;&gt;&lt;a href=&quot;#package、import的使用&quot; class=&quot;headerlink&quot; title=&quot;package、import的使用&quot;&gt;&lt;/a&gt;package、import的使用&lt;/h1&gt;&lt;h4 id=&quot;关于Jav</summary>
+      
+    
+    
+    
+    <category term="Java" scheme="https://xrebirth.github.io/categories/Java/"/>
+    
+    
+    <category term="Java基础" scheme="https://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>final修饰符(12)</title>
+    <link href="https://xrebirth.github.io/posts/5f8d3e42.html"/>
+    <id>https://xrebirth.github.io/posts/5f8d3e42.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-08T16:43:03.041Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="final修饰符"><a href="#final修饰符" class="headerlink" title="final修饰符"></a>final修饰符</h1><h2 id="关于java语言当中final关键字"><a href="#关于java语言当中final关键字" class="headerlink" title="关于java语言当中final关键字:"></a>关于java语言当中final关键字:</h2><ol><li><p>final是个关键字,表示”最终的，不可变的”</p></li><li><p>final修饰的类无法被继承</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">final</span> <span class="token keyword">class</span>  <span class="token class-name">Animal</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">/*// 编译报错class Cat extends Animal {}*/</span><span class="token comment" spellcheck="true">// </span><span class="token comment" spellcheck="true">//正确写法(Cat无法继承Animal)：</span><span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>final修饰的方法无法被重写/覆盖</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">a</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">final</span> <span class="token keyword">void</span> <span class="token function">b</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"HelloWold！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">class</span> <span class="token class-name">b</span> <span class="token keyword">extends</span> <span class="token class-name">a</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">b</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token comment" spellcheck="true">// 'b()' 无法重写 'study_exercise.objectexercise.exercisefinal.a' 中的 'b()'；重写的方法为 final</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>final修饰的变量一旦之后,不可重新赋值【不可二次赋值】</p><pre class="line-numbers language-java"><code class="language-java">        <span class="token comment" spellcheck="true">// 第一种写法</span>        <span class="token keyword">final</span> <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// a = 15; // 无法将值赋给 final 变量 'a'</span>        <span class="token comment" spellcheck="true">// 第二种写法：</span>        <span class="token keyword">final</span> <span class="token keyword">int</span> b<span class="token punctuation">;</span>        b<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>final修饰的实例变量：</p><ul><li><p>综合考虑，java语言最终规定实例变量使用final修饰之后,必须手动赋值,不能采用系统默认值。</p></li><li><p>因为默认构造函数在构造方法时候会将成员变量赋值所以Sun公司综合考虑让开发人员自行赋值，否则会编译错误！</p></li><li><p>两种写法：</p><pre class="line-numbers language-java"><code class="language-java">    <span class="token comment" spellcheck="true">// 第一种写法：</span>    <span class="token keyword">final</span> <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">// 第二种写法：</span>    <span class="token keyword">final</span> <span class="token keyword">int</span> b<span class="token punctuation">;</span>    <span class="token keyword">public</span> <span class="token function">Test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token keyword">this</span><span class="token punctuation">.</span>b<span class="token operator">=</span><span class="token number">100</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token comment" spellcheck="true">/**        总结以上两种写法：     * 第一种写法：     *  - 直接将成员变量直接赋值给了a，但是程序执行这句话实际是在构造函数中执行进行赋值的.     * 第二种写法：     *  - 直接在构造函数中赋值     *  总结：     *  以上两种情况其实在程序运行过程中都一样，只不过一个直接赋值一个写在构造函数中.     */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></li><li><p>final修饰的引用,一旦指向某个对象之后,不能再指向其它对象,那么被指向的对象无法被垃圾回收器回收。<br> 注意：<strong>final修饰的引用虽然指向某个对象之后不能指向其它对象,但是所指向的对象内部的内存是可以被修改的。</strong><br> 例如：</p><pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">// 加final实例化对象</span>        <span class="token keyword">final</span> Animal animal1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Animal</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// animal1 = new Animal(20); // 编译报错：一旦使用final创建对象不能，不能指向其他对象</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>animal1<span class="token punctuation">.</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>        animal1<span class="token punctuation">.</span>a<span class="token operator">=</span><span class="token number">2300</span><span class="token punctuation">;</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>animal1<span class="token punctuation">.</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">/**         * 总结：         * final修饰的引用虽然指向某个对象之后不能指向其它对象,但是所指向的对象内部的内存是可以被修改的。         */</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>final用法之常量的使用：</p><p> <strong>常量的定义语法格式:</strong></p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">final</span> <span class="token keyword">static</span> 类型 常量名 <span class="token operator">=</span> 值<span class="token punctuation">;</span><span class="token comment" spellcheck="true">// 提示：Java规范中要求所有常量的名字全部大写,每个单词之问使用下划线_连接</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;final修饰符&quot;&gt;&lt;a href=&quot;#final修饰符&quot; class=&quot;headerlink&quot; title=&quot;final修饰符&quot;&gt;&lt;/a&gt;final修饰符&lt;/h1&gt;&lt;h2 id=&quot;关于java语言当中final关键字&quot;&gt;&lt;a href=&quot;#关于java语言当中f</summary>
       
     
     
