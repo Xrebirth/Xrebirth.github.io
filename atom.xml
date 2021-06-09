@@ -6,7 +6,7 @@
   <link href="https://xrebirth.github.io/atom.xml" rel="self"/>
   
   <link href="https://xrebirth.github.io/"/>
-  <updated>2021-06-09T13:22:51.620Z</updated>
+  <updated>2021-06-09T14:58:52.766Z</updated>
   <id>https://xrebirth.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新的开始</title>
+    <link href="https://xrebirth.github.io/posts/b585e161.html"/>
+    <id>https://xrebirth.github.io/posts/b585e161.html</id>
+    <published>2021-06-09T14:19:51.000Z</published>
+    <updated>2021-06-09T14:58:52.766Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>​    😀Hi，你好呀，很高兴你能访问我的博客，做个自我介绍吧，你可以叫我轩轩(网名)也可以叫我小靳同学，现在就读于石家庄某大学大一，软件技术专业的一名学生，平常喜欢自己坐在电脑前折腾写东西(|这个博客就是我折腾出来的产物之一)，热爱编程，想想其实很早就想着手开始做一个属于自己的个人博客，但是无奈因为没时间(其实是因为懒，狗头)，终于在此时此刻经过5天时间自己成功做出来了趴….，虽然博客现在还不是特别好，但是自己会尽自己做大的努力将它完善好，做这个博客初衷一方面想将自己学的笔记放在上面，另一方面就是没事在上面吐槽自己所想、所感、所悟，哈哈，扯远了…，</p><p>​    🌈说说最近目标的目标吧，最近最想做的就是专升本吧，因为本身自己是一名大专生，决心想专本的理由其实自己也想了好长时间…但我认为自己最迫切的想法就是想离开这个学校，看到初、高中的同学在朋友圈晒自己大学照片在看看自己大学周边环境，其实还是心里落差蛮大的，这让我更加想专升本了，虽说现在本科生一抓一大把，但是人嘛总是要像前看，我还是挺渴望去更大的世界去看看，想去结交更多优秀的人吧…其次的话就是自己编程，对于自己热爱的东西我还是挺执着的，其实在这之前html和css以及javascript都学过，但是无奈都忘得差不多了，通过这次部署自己博客更加深刻的认识到，代码还是要平常敲敲的要不然都忘了，自己目标的话就说那么多吧~~</p><p>​    🏁个人网站后期规划：现阶段个人博客初步先这样，打算后期随着自己学习的越来越多，会逐渐优化下自己的网站，对于我这种强迫症患者，看到一点bug或者想优化的地方就想优化下，但是想想改进也并非一朝一夕之事，所以后期慢慢改进吧。</p><p>​    ✊最后引用一句自己经常勉励自己的话：</p><blockquote><p>如果你热爱一件事时你就会为它克服一切困难-Kobe！</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;新的开始&quot;&gt;&lt;a href=&quot;#新的开始&quot; class=&quot;headerlink&quot; title=&quot;新的开始&quot;&gt;&lt;/a&gt;新的开始&lt;/h2&gt;&lt;p&gt;​    😀Hi，你好呀，很高兴你能访问我的博客，做个自我介绍吧，你可以叫我轩轩(网名)也可以叫我小靳同学，现在就读于石家</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>数据库构成(01)</title>
@@ -476,30 +496,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;面向对象及面向过程区别&quot;&gt;&lt;a href=&quot;#面向对象及面向过程区别&quot; class=&quot;headerlink&quot; title=&quot;面向对象及面向过程区别&quot;&gt;&lt;/a&gt;面向对象及面向过程区别&lt;/h1&gt;&lt;h2 id=&quot;面向过程：主要是关注点是：实现的具体的过程，因果关系&quot;&gt;&lt;</summary>
-      
-    
-    
-    
-    <category term="Java" scheme="https://xrebirth.github.io/categories/Java/"/>
-    
-    
-    <category term="Java基础" scheme="https://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>类和对象的概念附Java命名规范(02)</title>
-    <link href="https://xrebirth.github.io/posts/117bb08e.html"/>
-    <id>https://xrebirth.github.io/posts/117bb08e.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-08T16:42:12.869Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="类和对象的概念附Java命名规范"><a href="#类和对象的概念附Java命名规范" class="headerlink" title="类和对象的概念附Java命名规范"></a>类和对象的概念附Java命名规范</h1><h2 id="类的定义【从这里开始编写代码】"><a href="#类的定义【从这里开始编写代码】" class="headerlink" title="类的定义【从这里开始编写代码】"></a>类的定义【从这里开始编写代码】</h2><ol><li><h3 id="语法格式："><a href="#语法格式：" class="headerlink" title="语法格式："></a>语法格式：</h3></li></ol><pre><code>```java [修饰符列表] class 类名 {        属性;        方法;    }```</code></pre><ol start="2"><li><h3 id="例如：学生类：描述所有学生对象的共同特征"><a href="#例如：学生类：描述所有学生对象的共同特征" class="headerlink" title="例如：学生类：描述所有学生对象的共同特征"></a>例如：学生类：描述所有学生对象的共同特征</h3><ul><li>学号【int】</li><li>名字【String】</li><li>性别【boolean】</li><li>年龄【int】</li><li>住址【String】</li><li>等…</li></ul></li><li><h3 id="重点：-成员变量通常是采用一个变量的形式来完成定义的"><a href="#重点：-成员变量通常是采用一个变量的形式来完成定义的" class="headerlink" title="重点： 成员变量通常是采用一个变量的形式来完成定义的"></a>重点： 成员变量通常是采用一个变量的形式来完成定义的</h3><ul><li>int no[学号]</li><li>int age[年龄]</li><li>String name[名字]</li><li>String address[住址]</li><li>boolean sex[年龄]</li></ul></li><li><h3 id="数据类型："><a href="#数据类型：" class="headerlink" title="数据类型："></a>数据类型：</h3></li></ol><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B.png" alt="数据类型"></p><p>  引用数据类型(以下理解为新手可以这样理解，但是严格意义不准确)：<br>      String.class     SUN【甲骨文工资】提供的<br>      System.class    SUN【甲骨文工资】提供的</p><ol start="5"><li><h3 id="Java命名规范"><a href="#Java命名规范" class="headerlink" title="Java命名规范"></a>Java命名规范</h3></li></ol><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/%E5%9B%BE%E5%B1%82%203.png" alt="java命名规范"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;类和对象的概念附Java命名规范&quot;&gt;&lt;a href=&quot;#类和对象的概念附Java命名规范&quot; class=&quot;headerlink&quot; title=&quot;类和对象的概念附Java命名规范&quot;&gt;&lt;/a&gt;类和对象的概念附Java命名规范&lt;/h1&gt;&lt;h2 id=&quot;类的定义【从这里开</summary>
       
     
     
