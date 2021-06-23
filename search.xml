@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>文章名称</title>
+      <link href="/posts/9eb11de.html"/>
+      <url>/posts/9eb11de.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>近期总结</title>
       <link href="/posts/86c777df.html"/>
       <url>/posts/86c777df.html</url>
