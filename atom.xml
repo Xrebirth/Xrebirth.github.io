@@ -210,30 +210,6 @@
   </entry>
   
   <entry>
-    <title>MySQL数据类型(03)</title>
-    <link href="https://xrebirth.github.io/posts/56ca3202.html"/>
-    <id>https://xrebirth.github.io/posts/56ca3202.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-09T15:27:39.013Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第3节：数据类型"><a href="#第3节：数据类型" class="headerlink" title="第3节：数据类型"></a>第3节：数据类型</h1><h2 id="数值类型"><a href="#数值类型" class="headerlink" title="数值类型"></a>数值类型</h2><p>mysql支持所有标准sql数值数据类型。  这些类型包括严格数值数据类型(integer、smallint、decimal和numeric)，以及近似数值数据类型(float、real和double precision)。  关键字int是integer的同义词，关键字dec是decimal的同义词。  bit数据类型保存位字段值，并且支持myisam、memory、innodb和bdb表。  作为sql标准的扩展，mysql也支持整数类型tinyint、mediumint和bigint。下面的表显示了需要的每个整数类型的存储和范围。</p><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/mysql.png" alt="数值类型"></p><h2 id="日期和时间类型"><a href="#日期和时间类型" class="headerlink" title="日期和时间类型"></a>日期和时间类型</h2><p>表示时间值的日期和时间类型为datetime、date、timestamp、time和year。每个时间类型有一个有效值范围和一个”零”值，当指定不合法的mysql不能表示的值时使用”零”值。timestamp类型有专有的自动更新特性，将在后面描述。</p><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/2.png" alt="日期和时间类型"></p><h2 id="字符串类型"><a href="#字符串类型" class="headerlink" title="字符串类型"></a>字符串类型</h2><p>字符串类型指char、varchar、binary、varbinary、blob、text、enum和set。该节描述了这些类型如何工作以及如何在查询中使用这些类型。</p><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210520230802.png" alt="字符串类型"></p><p>注意：char(n) 和 varchar(n) 中括号中 n 代表字符的个数，并不代表字节个数，比如 char(30) 就可以存储 30 个字符。<br>char 和 varchar 类型类似，但它们保存和检索的方式不同。它们的最大长度和是否尾部空格被保留等方面也不同。在存储或检索过程中不进行大小写转换。<br>binary 和 varbinary 类似于 char 和 varchar，不同的是它们包含二进制字符串而不要非二进制字符串。也就是说，它们包含字节字符串而不是字符字符串。这说明它们没有字符集，并且排序和比较基于列值字节的数值值。<br>blob 是一个二进制大对象，可以容纳可变数量的数据。有 4 种 blob 类型：tinyblob、blob、mediumblob 和 longblob。它们区别在于可容纳存储范围不同。<br>有 4 种 text 类型：tinytext、text、mediumtext 和 longtext。对应的这 4 种 blob 类型，可存储的最大长度不同，可根据实际情况选择。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;第3节：数据类型&quot;&gt;&lt;a href=&quot;#第3节：数据类型&quot; class=&quot;headerlink&quot; title=&quot;第3节：数据类型&quot;&gt;&lt;/a&gt;第3节：数据类型&lt;/h1&gt;&lt;h2 id=&quot;数值类型&quot;&gt;&lt;a href=&quot;#数值类型&quot; class=&quot;headerlink&quot; </summary>
-      
-    
-    
-    
-    <category term="MySQL" scheme="https://xrebirth.github.io/categories/MySQL/"/>
-    
-    
-    <category term="MySQL" scheme="https://xrebirth.github.io/tags/MySQL/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Git安装及配置(01)</title>
     <link href="https://xrebirth.github.io/posts/161b8ec9.html"/>
     <id>https://xrebirth.github.io/posts/161b8ec9.html</id>
@@ -282,30 +258,6 @@
   </entry>
   
   <entry>
-    <title>Git基本常用命令集(03)</title>
-    <link href="https://xrebirth.github.io/posts/e80658dd.html"/>
-    <id>https://xrebirth.github.io/posts/e80658dd.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-09T15:30:06.328Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Git基本常用命令集"><a href="#Git基本常用命令集" class="headerlink" title="Git基本常用命令集"></a>Git基本常用命令集</h1><h2 id="基本常用命令："><a href="#基本常用命令：" class="headerlink" title="基本常用命令："></a>基本常用命令：</h2><p>git init    初始化git仓库</p><p>如果第一次与仓库连接使用以下命令：</p><ol><li>git remote add origin &lt;github远程仓库地址&gt; 将本地仓库与远程仓库连接</li><li> git branch -M main 将主分支名称master修改为main</li><li>git push -u origin main  推送远程仓库</li></ol><p>本地仓库命令：</p><ol><li><p>将所有文件添加到暂存区<br> git add .    </p></li><li><p>提交到本地仓库<br> git commit -m “提交信息”    </p></li><li><p>推送到远程仓库<br> git push</p></li></ol><p>克隆仓库命令：</p><ol><li>克隆当前仓库：<br> git clone &lt;项目ssh地址&gt;    </li><li>克隆所有仓库：<br> 待学习…</li></ol><h2 id="分支常用命令："><a href="#分支常用命令：" class="headerlink" title="分支常用命令："></a>分支常用命令：</h2><ol><li>切换分支 git checkout 分支名</li><li>删除分支 git branch -d 分支名</li><li>查看本地分支 git branch</li><li>查看远程分支 git branch -a</li><li>创建分支 git branch 分支名</li><li>创建+切换分支 git checkout -b</li><li>删除分支 git breach -d 分支名</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Git基本常用命令集&quot;&gt;&lt;a href=&quot;#Git基本常用命令集&quot; class=&quot;headerlink&quot; title=&quot;Git基本常用命令集&quot;&gt;&lt;/a&gt;Git基本常用命令集&lt;/h1&gt;&lt;h2 id=&quot;基本常用命令：&quot;&gt;&lt;a href=&quot;#基本常用命令：&quot; class</summary>
-      
-    
-    
-    
-    <category term="Git" scheme="https://xrebirth.github.io/categories/Git/"/>
-    
-    
-    <category term="Git" scheme="https://xrebirth.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Github实用小技巧(04)</title>
     <link href="https://xrebirth.github.io/posts/93839e01.html"/>
     <id>https://xrebirth.github.io/posts/93839e01.html</id>
@@ -332,6 +284,54 @@
   </entry>
   
   <entry>
+    <title>MySQL数据类型(03)</title>
+    <link href="https://xrebirth.github.io/posts/56ca3202.html"/>
+    <id>https://xrebirth.github.io/posts/56ca3202.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-09T15:27:39.013Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第3节：数据类型"><a href="#第3节：数据类型" class="headerlink" title="第3节：数据类型"></a>第3节：数据类型</h1><h2 id="数值类型"><a href="#数值类型" class="headerlink" title="数值类型"></a>数值类型</h2><p>mysql支持所有标准sql数值数据类型。  这些类型包括严格数值数据类型(integer、smallint、decimal和numeric)，以及近似数值数据类型(float、real和double precision)。  关键字int是integer的同义词，关键字dec是decimal的同义词。  bit数据类型保存位字段值，并且支持myisam、memory、innodb和bdb表。  作为sql标准的扩展，mysql也支持整数类型tinyint、mediumint和bigint。下面的表显示了需要的每个整数类型的存储和范围。</p><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/mysql.png" alt="数值类型"></p><h2 id="日期和时间类型"><a href="#日期和时间类型" class="headerlink" title="日期和时间类型"></a>日期和时间类型</h2><p>表示时间值的日期和时间类型为datetime、date、timestamp、time和year。每个时间类型有一个有效值范围和一个”零”值，当指定不合法的mysql不能表示的值时使用”零”值。timestamp类型有专有的自动更新特性，将在后面描述。</p><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/2.png" alt="日期和时间类型"></p><h2 id="字符串类型"><a href="#字符串类型" class="headerlink" title="字符串类型"></a>字符串类型</h2><p>字符串类型指char、varchar、binary、varbinary、blob、text、enum和set。该节描述了这些类型如何工作以及如何在查询中使用这些类型。</p><p><img src="https://xuanxuanimages.oss-cn-beijing.aliyuncs.com/img/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210520230802.png" alt="字符串类型"></p><p>注意：char(n) 和 varchar(n) 中括号中 n 代表字符的个数，并不代表字节个数，比如 char(30) 就可以存储 30 个字符。<br>char 和 varchar 类型类似，但它们保存和检索的方式不同。它们的最大长度和是否尾部空格被保留等方面也不同。在存储或检索过程中不进行大小写转换。<br>binary 和 varbinary 类似于 char 和 varchar，不同的是它们包含二进制字符串而不要非二进制字符串。也就是说，它们包含字节字符串而不是字符字符串。这说明它们没有字符集，并且排序和比较基于列值字节的数值值。<br>blob 是一个二进制大对象，可以容纳可变数量的数据。有 4 种 blob 类型：tinyblob、blob、mediumblob 和 longblob。它们区别在于可容纳存储范围不同。<br>有 4 种 text 类型：tinytext、text、mediumtext 和 longtext。对应的这 4 种 blob 类型，可存储的最大长度不同，可根据实际情况选择。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第3节：数据类型&quot;&gt;&lt;a href=&quot;#第3节：数据类型&quot; class=&quot;headerlink&quot; title=&quot;第3节：数据类型&quot;&gt;&lt;/a&gt;第3节：数据类型&lt;/h1&gt;&lt;h2 id=&quot;数值类型&quot;&gt;&lt;a href=&quot;#数值类型&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="MySQL" scheme="https://xrebirth.github.io/categories/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://xrebirth.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git基本常用命令集(03)</title>
+    <link href="https://xrebirth.github.io/posts/e80658dd.html"/>
+    <id>https://xrebirth.github.io/posts/e80658dd.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-09T15:30:06.328Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git基本常用命令集"><a href="#Git基本常用命令集" class="headerlink" title="Git基本常用命令集"></a>Git基本常用命令集</h1><h2 id="基本常用命令："><a href="#基本常用命令：" class="headerlink" title="基本常用命令："></a>基本常用命令：</h2><p>git init    初始化git仓库</p><p>如果第一次与仓库连接使用以下命令：</p><ol><li>git remote add origin &lt;github远程仓库地址&gt; 将本地仓库与远程仓库连接</li><li> git branch -M main 将主分支名称master修改为main</li><li>git push -u origin main  推送远程仓库</li></ol><p>本地仓库命令：</p><ol><li><p>将所有文件添加到暂存区<br> git add .    </p></li><li><p>提交到本地仓库<br> git commit -m “提交信息”    </p></li><li><p>推送到远程仓库<br> git push</p></li></ol><p>克隆仓库命令：</p><ol><li>克隆当前仓库：<br> git clone &lt;项目ssh地址&gt;    </li><li>克隆所有仓库：<br> 待学习…</li></ol><h2 id="分支常用命令："><a href="#分支常用命令：" class="headerlink" title="分支常用命令："></a>分支常用命令：</h2><ol><li>切换分支 git checkout 分支名</li><li>删除分支 git branch -d 分支名</li><li>查看本地分支 git branch</li><li>查看远程分支 git branch -a</li><li>创建分支 git branch 分支名</li><li>创建+切换分支 git checkout -b</li><li>删除分支 git breach -d 分支名</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Git基本常用命令集&quot;&gt;&lt;a href=&quot;#Git基本常用命令集&quot; class=&quot;headerlink&quot; title=&quot;Git基本常用命令集&quot;&gt;&lt;/a&gt;Git基本常用命令集&lt;/h1&gt;&lt;h2 id=&quot;基本常用命令：&quot;&gt;&lt;a href=&quot;#基本常用命令：&quot; class</summary>
+      
+    
+    
+    
+    <category term="Git" scheme="https://xrebirth.github.io/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="https://xrebirth.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git bash 常用命令(05)</title>
     <link href="https://xrebirth.github.io/posts/bdcfb600.html"/>
     <id>https://xrebirth.github.io/posts/bdcfb600.html</id>
@@ -353,6 +353,54 @@
     
     
     <category term="Git" scheme="https://xrebirth.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Table标签(01)</title>
+    <link href="https://xrebirth.github.io/posts/2e463a55.html"/>
+    <id>https://xrebirth.github.io/posts/2e463a55.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-09T15:30:29.695Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第1节：Table标签"><a href="#第1节：Table标签" class="headerlink" title="第1节：Table标签"></a>第1节：Table标签</h1><h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><pre class="line-numbers language-html"><code class="language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100%<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100px<span class="token punctuation">"</span></span> <span class="token attr-name">cellpadding</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>10px<span class="token punctuation">"</span></span> <span class="token attr-name">cellspacing</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>15px<span class="token punctuation">"</span></span> <span class="token attr-name">border</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>1px<span class="token punctuation">"</span></span> <span class="token attr-name">bgcolor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>white<span class="token punctuation">"</span></span> <span class="token attr-name">bordercolor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>blue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>caption</span><span class="token punctuation">></span></span>表格标题<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>caption</span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span> <span class="token attr-name">aria-rowcount</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">colspan</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span> <span class="token attr-name">bgcolor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>aqua<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>合并2行<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">rowspan</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span> <span class="token attr-name">bgcolor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#ccc<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>合并2列<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="table标签属性："><a href="#table标签属性：" class="headerlink" title="table标签属性："></a>table标签属性：</h2><ul><li><code>width</code>：长度</li><li><code>height</code>：高度</li><li><code>cellspacing</code>：规定单元边沿与单元内容之间的空间，用以像素(px)或百分比(%)</li><li><code>cellpadding</code>：规定单元边沿与其内容之间的空白，用以像素(px)或百分比(%)</li><li><code>border</code>：边框</li><li><code>bordercolor</code>：边框颜色</li><li><code>bgcolor</code>：规定表格单元格的背景颜色</li><li>**<code>colspan</code>**：合并行，输入值：合并几行</li><li>**<code>rowspan</code>**：合并列，输入值：合并几列</li></ul><h2 id="table的子集标签："><a href="#table的子集标签：" class="headerlink" title="table的子集标签："></a>table的子集标签：</h2><ul><li><code>caption</code>：表格标题</li><li><code>th</code>：表头 (<strong>表头与列不同的是表头文字自动加粗文字居中</strong>)</li><li><code>tr</code>：行</li><li><code>td</code>：列</li></ul><p><code>待补充...</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第1节：Table标签&quot;&gt;&lt;a href=&quot;#第1节：Table标签&quot; class=&quot;headerlink&quot; title=&quot;第1节：Table标签&quot;&gt;&lt;/a&gt;第1节：Table标签&lt;/h1&gt;&lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="HTML" scheme="https://xrebirth.github.io/categories/HTML/"/>
+    
+    
+    <category term="HTML" scheme="https://xrebirth.github.io/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Table总结</title>
+    <link href="https://xrebirth.github.io/posts/c888fdae.html"/>
+    <id>https://xrebirth.github.io/posts/c888fdae.html</id>
+    <published>2021-06-07T16:00:00.000Z</published>
+    <updated>2021-06-09T15:30:35.191Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第2节：Table总结"><a href="#第2节：Table总结" class="headerlink" title="第2节：Table总结"></a>第2节：Table总结</h1><h2 id="Table标签属性总结："><a href="#Table标签属性总结：" class="headerlink" title="Table标签属性总结："></a>Table标签属性总结：</h2><ul><li><code>&lt;tr&gt;</code>不能设置width，但是可以设置height</li><li>如果一行中每个<code>&lt;td&gt;</code>或者<code>&lt;th&gt;</code>每个元素长度不一试着在<code>&lt;table&gt;</code>加上<code>table-layout:fixed</code>注意：这个是style样式表</li></ul><h2 id="a-标签更改字体以及去掉下划线："><a href="#a-标签更改字体以及去掉下划线：" class="headerlink" title="**a**标签更改字体以及去掉下划线："></a>**<code>a</code>**标签更改字体以及去掉下划线：</h2><pre class="line-numbers language-css"><code class="language-css"><span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>    // 更改字体颜色<span class="token property">text-decoration</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>    // 去掉下划线<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><code>待补充...</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第2节：Table总结&quot;&gt;&lt;a href=&quot;#第2节：Table总结&quot; class=&quot;headerlink&quot; title=&quot;第2节：Table总结&quot;&gt;&lt;/a&gt;第2节：Table总结&lt;/h1&gt;&lt;h2 id=&quot;Table标签属性总结：&quot;&gt;&lt;a href=&quot;#Table</summary>
+      
+    
+    
+    
+    <category term="HTML" scheme="https://xrebirth.github.io/categories/HTML/"/>
+    
+    
+    <category term="HTML" scheme="https://xrebirth.github.io/tags/HTML/"/>
     
   </entry>
   
@@ -410,30 +458,6 @@
   </entry>
   
   <entry>
-    <title>多态(Polymorphism)(11)</title>
-    <link href="https://xrebirth.github.io/posts/d97340ca.html"/>
-    <id>https://xrebirth.github.io/posts/d97340ca.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-12T09:17:07.116Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="多态-Polymorphism"><a href="#多态-Polymorphism" class="headerlink" title="多态(Polymorphism)"></a>多态(Polymorphism)</h1><h3 id="关于java语言当中的多态语法机制-【只是多态的基础语法-多态的作用在后续的例子中讲解。】"><a href="#关于java语言当中的多态语法机制-【只是多态的基础语法-多态的作用在后续的例子中讲解。】" class="headerlink" title="关于java语言当中的多态语法机制:【只是多态的基础语法,多态的作用在后续的例子中讲解。】"></a>关于java语言当中的多态语法机制:【只是多态的基础语法,多态的作用在后续的例子中讲解。】</h3><ol><li><p>Anima1、Cat、Bird三个类之间的关系:<br> Cat继承 Anima<br> Bird维承 Anima<br> Cat和Bird之间没有任何继承关系</p></li><li><p>面向对象三大特征:封装、继承、多态</p></li><li><p>关于多态中涉及到的几个概念:</p></li></ol><ul><li><p>向上转型(upcasting)</p><p>子类型—-&gt;父类型<br>又被称为:自动类型转换。</p><pre class="line-numbers language-java"><code class="language-java">Animal animal1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment" spellcheck="true">// 子转父类 向上转型</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>向下转型(downcasting)</p><p>父类型—-&gt;子类型<br>又被称为:强制类型转换。【需要加强制类型转换符】</p><pre class="line-numbers language-java"><code class="language-java">Cat cat <span class="token operator">=</span> <span class="token punctuation">(</span>Cat<span class="token punctuation">)</span> animal1<span class="token punctuation">;</span>            <span class="token comment" spellcheck="true">// 父类转子类 向下转型</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul><ol start="4"><li><p>需要记忆:<br> 无论是向上转型还是向下转型,两种类型之间必须要有继承关系。<br> 没有继承关系,程序是无法编译通过的。</p></li><li><p>注意：</p></li><li><p>java程序永远都分为编译阶段和运行阶段。</p></li><li><p>先分析编译阶段,再分析运行阶段,编译无法通过,根本是无法运行的。</p></li><li><p>编译阶段编译器检查a2这个引用的数据类型为 Anima1,由于 Anima1.c1ass</p></li></ol><pre><code>&gt; 字节码当中有move()方法,所以编译通过了。这个过程我们称之为静态绑定,编译阶段绑定。&gt; 只有静态绑定成功之后才有后续的运行。</code></pre><ol start="9"><li><p>在程序运行阶段,JV唯堆内存当中真实创建的对象是cat对象,那么以下程序在运行阶段一定会调用cat对象的move()方法,此时发生了程序的动态绑定,运行阶段绑定。</p></li><li><p>无论是cat类有没有重写move方法,运行阶段一定调用的是cat对象的move方法,因为底层<br>真实对象就是cat对象。</p></li><li><p>父类型引用指向子类型对象这种机制导致程序存在编译阶段绑定和运行阶段绑定两种不同的形态/状态,这种机制可以成为一种多态语法机制。</p></li><li><p>instanceof运算符(返回boolean类型)</p></li></ol><pre class="line-numbers language-java"><code class="language-java">        Animal animal1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment" spellcheck="true">// 子转父类 向上转型</span>        Dog dog <span class="token operator">=</span> <span class="token punctuation">(</span>Dog<span class="token punctuation">)</span> animal1<span class="token punctuation">;</span>        dog<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">/**         * 以上会编译报错：cannot be cast to class (cat类不能强制转换为dog类)         * 原因：         * 1. 编译未报错：         *  - 编译检测时候当前Animal里面包含Dog类所以语法正确         * 2. 运行错误报错：         *  - 运行时候由于堆内存中是Cat类由于Cat与Dog不是继承关系，所以无法完成向下转型         * 3. 解决方法：         *  - Sun公司给出了一个运算符叫做：instanceof         *  - 语法：引用 instanceof 类名   --------> 返回值：Boolean          */</span><span class="token comment" spellcheck="true">//         解决办法</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>animal1 <span class="token keyword">instanceof</span> <span class="token class-name">Dog</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>     <span class="token comment" spellcheck="true">// 当animal的堆内存中存储的是dog对象时执行</span>            Dog dog <span class="token operator">=</span> <span class="token punctuation">(</span>Dog<span class="token punctuation">)</span> animal1<span class="token punctuation">;</span>            animal1<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>animal1 <span class="token keyword">instanceof</span> <span class="token class-name">Cat</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment" spellcheck="true">// 当animal的堆内存中存储的是cat对象时执行</span>            Cat cat <span class="token operator">=</span> <span class="token punctuation">(</span>Cat<span class="token punctuation">)</span> animal1<span class="token punctuation">;</span>            animal1<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span><span class="token comment" spellcheck="true">// 这样有效的避免了编译报错：cannot be cast to class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="13"><li><p>总结：</p></li><li><p>如果创建了一个B对象，且B类继承自A类，如果B类想使用A类中方法</p></li></ol><pre><code> 这种情况使用向上转型(upcasting)</code></pre><ol><li>如果创建了一个B对象，且B类继承自A类，且B类现在已经向上转型了，但是现在向调用子类方法</li></ol><pre><code> 这种情况使用向下转型(downcasting)</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;多态-Polymorphism&quot;&gt;&lt;a href=&quot;#多态-Polymorphism&quot; class=&quot;headerlink&quot; title=&quot;多态(Polymorphism)&quot;&gt;&lt;/a&gt;多态(Polymorphism)&lt;/h1&gt;&lt;h3 id=&quot;关于java语言当中的</summary>
-      
-    
-    
-    
-    <category term="Java" scheme="https://xrebirth.github.io/categories/Java/"/>
-    
-    
-    <category term="Java基础" scheme="https://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>final修饰符(12)</title>
     <link href="https://xrebirth.github.io/posts/18e18182.html"/>
     <id>https://xrebirth.github.io/posts/18e18182.html</id>
@@ -458,44 +482,18 @@
   </entry>
   
   <entry>
-    <title>package、import的使用(13)</title>
-    <link href="https://xrebirth.github.io/posts/26da222b.html"/>
-    <id>https://xrebirth.github.io/posts/26da222b.html</id>
+    <title>多态(Polymorphism)(11)</title>
+    <link href="https://xrebirth.github.io/posts/d97340ca.html"/>
+    <id>https://xrebirth.github.io/posts/d97340ca.html</id>
     <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-09T15:29:12.798Z</updated>
+    <updated>2021-06-12T09:17:07.116Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="package、import的使用"><a href="#package、import的使用" class="headerlink" title="package、import的使用"></a>package、import的使用</h1><h4 id="关于Java语言当中的包机制"><a href="#关于Java语言当中的包机制" class="headerlink" title="关于Java语言当中的包机制"></a>关于Java语言当中的包机制</h4><ol><li><p>包又称为 <code>package</code>，Java中引入 <code>package</code>这种语法机制主要是为了方便程序的管理<br> 不同功能的类被分门别类放到不同的软件包当中,查找比较方便,管理比较方便,易维护</p></li><li><p>定义 package</p><ul><li><p>在Java源程序的第一行上编写package语句。</p></li><li><p>package只能编写一个语句。</p></li><li><p>语法结构:</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">package</span> 包名<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></li><li><p>包名的命名规范:</p><ul><li><p>公司域名倒序+项目名+模块名+功能名;</p></li><li><p>采用这种方式重名的几率较低。因为公司域名具有全球唯一性</p></li><li><p>例如：</p><blockquote><p>com.bjpowernode.oauser.service;<br>org.apache.tomcat.core;</p></blockquote></li></ul></li><li><p>包名要求全部小写,包名也是标识符,必须遵守标识符的命名规则</p></li><li><p>一个包将来对应的是一个目录</p></li><li><p>使用package手动编译及运行Java：</p><ul><li><p>使用<code>package</code>机制之后，类名不在是原来的类名了，类名会变成java文件中定义的<code>package</code>路径</p></li><li><p>编译：javac java源文件路径 (在硬盘上生成一个class文件)</p></li><li><p>手动方式创建Java的package设置的目录，将java字节码文件放到java设置的package目录</p></li><li><p>运行：Java package路径</p></li><li><p>另一种方式(编译+运行)</p><ul><li><p>编译：</p><p>  javac -d 编译之后存放的路径 java源文件路径</p></li><li><p>例如：将F:\Hello World.java文件编译到C:\目录下</p><p>  javac -d C:\ F:\Hello World.java</p></li><li><p>java -d . <em>.java</em></p><p>  将当前的路径中*.java(所有含后缀名java文件)编译之后存放到当前文件目录下</p></li><li><p>运行JVM的类加载器ClassLoader默认从当前路径下加载。<br>  保证先切换到com所在的路径在执行</p></li></ul></li></ul></li><li><p><strong>import</strong>的使用</p><ul><li><p>什么时候使用<code>import</code></p><p>  想要调用一个类但是这个类，并且不在同一个包下的时候，需要使用 <code>import</code>进行引入</p></li></ul></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;package、import的使用&quot;&gt;&lt;a href=&quot;#package、import的使用&quot; class=&quot;headerlink&quot; title=&quot;package、import的使用&quot;&gt;&lt;/a&gt;package、import的使用&lt;/h1&gt;&lt;h4 id=&quot;关于Jav</summary>
-      
-    
-    
-    
-    <category term="Java" scheme="https://xrebirth.github.io/categories/Java/"/>
-    
-    
-    <category term="Java基础" scheme="https://xrebirth.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>访问控制权限修饰符(14)</title>
-    <link href="https://xrebirth.github.io/posts/3839c98f.html"/>
-    <id>https://xrebirth.github.io/posts/3839c98f.html</id>
-    <published>2021-06-07T16:00:00.000Z</published>
-    <updated>2021-06-09T15:29:17.760Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="访问控制权限修饰符"><a href="#访问控制权限修饰符" class="headerlink" title="访问控制权限修饰符"></a>访问控制权限修饰符</h1><ol><li>访问控制权限修饰符来控制元素的访问范围</li><li>访问控制权限修饰符：</li></ol><table><thead><tr><th>修饰符</th><th>权限解释</th></tr></thead><tbody><tr><td>public(公共的)</td><td>表示公共的公开的，可以在任何位置访问</td></tr><tr><td>protected (受保护的)</td><td>相同包内可以访问，子类也可以访问</td></tr><tr><td>缺省(不写修饰符)</td><td>相同包内可以访问</td></tr><tr><td>private(私人的)</td><td>表示私人，只能在本类中访问</td></tr></tbody></table><ol><li><p>访问控制权限修饰符可以修饰类、内部类、变量、方法…..等</p></li><li><p>修饰符的范围：</p><p> public &gt; protected &gt; 缺省(不写修饰符) &gt; public</p></li></ol><p><strong>注意</strong>：类只能采用<strong>public和缺省</strong>的修饰符进行修饰。【<strong>内部类除外</strong>】</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="多态-Polymorphism"><a href="#多态-Polymorphism" class="headerlink" title="多态(Polymorphism)"></a>多态(Polymorphism)</h1><h3 id="关于java语言当中的多态语法机制-【只是多态的基础语法-多态的作用在后续的例子中讲解。】"><a href="#关于java语言当中的多态语法机制-【只是多态的基础语法-多态的作用在后续的例子中讲解。】" class="headerlink" title="关于java语言当中的多态语法机制:【只是多态的基础语法,多态的作用在后续的例子中讲解。】"></a>关于java语言当中的多态语法机制:【只是多态的基础语法,多态的作用在后续的例子中讲解。】</h3><ol><li><p>Anima1、Cat、Bird三个类之间的关系:<br> Cat继承 Anima<br> Bird维承 Anima<br> Cat和Bird之间没有任何继承关系</p></li><li><p>面向对象三大特征:封装、继承、多态</p></li><li><p>关于多态中涉及到的几个概念:</p></li></ol><ul><li><p>向上转型(upcasting)</p><p>子类型—-&gt;父类型<br>又被称为:自动类型转换。</p><pre class="line-numbers language-java"><code class="language-java">Animal animal1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment" spellcheck="true">// 子转父类 向上转型</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>向下转型(downcasting)</p><p>父类型—-&gt;子类型<br>又被称为:强制类型转换。【需要加强制类型转换符】</p><pre class="line-numbers language-java"><code class="language-java">Cat cat <span class="token operator">=</span> <span class="token punctuation">(</span>Cat<span class="token punctuation">)</span> animal1<span class="token punctuation">;</span>            <span class="token comment" spellcheck="true">// 父类转子类 向下转型</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul><ol start="4"><li><p>需要记忆:<br> 无论是向上转型还是向下转型,两种类型之间必须要有继承关系。<br> 没有继承关系,程序是无法编译通过的。</p></li><li><p>注意：</p></li><li><p>java程序永远都分为编译阶段和运行阶段。</p></li><li><p>先分析编译阶段,再分析运行阶段,编译无法通过,根本是无法运行的。</p></li><li><p>编译阶段编译器检查a2这个引用的数据类型为 Anima1,由于 Anima1.c1ass</p></li></ol><pre><code>&gt; 字节码当中有move()方法,所以编译通过了。这个过程我们称之为静态绑定,编译阶段绑定。&gt; 只有静态绑定成功之后才有后续的运行。</code></pre><ol start="9"><li><p>在程序运行阶段,JV唯堆内存当中真实创建的对象是cat对象,那么以下程序在运行阶段一定会调用cat对象的move()方法,此时发生了程序的动态绑定,运行阶段绑定。</p></li><li><p>无论是cat类有没有重写move方法,运行阶段一定调用的是cat对象的move方法,因为底层<br>真实对象就是cat对象。</p></li><li><p>父类型引用指向子类型对象这种机制导致程序存在编译阶段绑定和运行阶段绑定两种不同的形态/状态,这种机制可以成为一种多态语法机制。</p></li><li><p>instanceof运算符(返回boolean类型)</p></li></ol><pre class="line-numbers language-java"><code class="language-java">        Animal animal1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment" spellcheck="true">// 子转父类 向上转型</span>        Dog dog <span class="token operator">=</span> <span class="token punctuation">(</span>Dog<span class="token punctuation">)</span> animal1<span class="token punctuation">;</span>        dog<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">/**         * 以上会编译报错：cannot be cast to class (cat类不能强制转换为dog类)         * 原因：         * 1. 编译未报错：         *  - 编译检测时候当前Animal里面包含Dog类所以语法正确         * 2. 运行错误报错：         *  - 运行时候由于堆内存中是Cat类由于Cat与Dog不是继承关系，所以无法完成向下转型         * 3. 解决方法：         *  - Sun公司给出了一个运算符叫做：instanceof         *  - 语法：引用 instanceof 类名   --------> 返回值：Boolean          */</span><span class="token comment" spellcheck="true">//         解决办法</span>        <span class="token keyword">if</span> <span class="token punctuation">(</span>animal1 <span class="token keyword">instanceof</span> <span class="token class-name">Dog</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>     <span class="token comment" spellcheck="true">// 当animal的堆内存中存储的是dog对象时执行</span>            Dog dog <span class="token operator">=</span> <span class="token punctuation">(</span>Dog<span class="token punctuation">)</span> animal1<span class="token punctuation">;</span>            animal1<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>animal1 <span class="token keyword">instanceof</span> <span class="token class-name">Cat</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment" spellcheck="true">// 当animal的堆内存中存储的是cat对象时执行</span>            Cat cat <span class="token operator">=</span> <span class="token punctuation">(</span>Cat<span class="token punctuation">)</span> animal1<span class="token punctuation">;</span>            animal1<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span><span class="token comment" spellcheck="true">// 这样有效的避免了编译报错：cannot be cast to class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="13"><li><p>总结：</p></li><li><p>如果创建了一个B对象，且B类继承自A类，如果B类想使用A类中方法</p></li></ol><pre><code> 这种情况使用向上转型(upcasting)</code></pre><ol><li>如果创建了一个B对象，且B类继承自A类，且B类现在已经向上转型了，但是现在向调用子类方法</li></ol><pre><code> 这种情况使用向下转型(downcasting)</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;访问控制权限修饰符&quot;&gt;&lt;a href=&quot;#访问控制权限修饰符&quot; class=&quot;headerlink&quot; title=&quot;访问控制权限修饰符&quot;&gt;&lt;/a&gt;访问控制权限修饰符&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;访问控制权限修饰符来控制元素的访问范围&lt;/li&gt;
-&lt;li&gt;访问控制权限修</summary>
+    <summary type="html">&lt;h1 id=&quot;多态-Polymorphism&quot;&gt;&lt;a href=&quot;#多态-Polymorphism&quot; class=&quot;headerlink&quot; title=&quot;多态(Polymorphism)&quot;&gt;&lt;/a&gt;多态(Polymorphism)&lt;/h1&gt;&lt;h3 id=&quot;关于java语言当中的</summary>
       
     
     
