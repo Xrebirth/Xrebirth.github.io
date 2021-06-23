@@ -6,7 +6,7 @@
   <link href="https://xrebirth.github.io/atom.xml" rel="self"/>
   
   <link href="https://xrebirth.github.io/"/>
-  <updated>2021-06-23T08:09:32.260Z</updated>
+  <updated>2021-06-23T10:23:06.950Z</updated>
   <id>https://xrebirth.github.io/</id>
   
   <author>
@@ -17,26 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>文章名称</title>
-    <link href="https://xrebirth.github.io/posts/9eb11de.html"/>
-    <id>https://xrebirth.github.io/posts/9eb11de.html</id>
-    <published>2021-06-23T08:08:20.000Z</published>
-    <updated>2021-06-23T08:09:32.260Z</updated>
+    <title>解决git push 443超时</title>
+    <link href="https://xrebirth.github.io/posts/6204da2e.html"/>
+    <id>https://xrebirth.github.io/posts/6204da2e.html</id>
+    <published>2021-06-23T09:15:05.000Z</published>
+    <updated>2021-06-23T10:23:06.950Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="解决git-push-pull-clone操作时的443错误-GitHub无法访问问题"><a href="#解决git-push-pull-clone操作时的443错误-GitHub无法访问问题" class="headerlink" title="解决git push/pull/clone操作时的443错误/GitHub无法访问问题"></a>解决git push/pull/clone操作时的443错误/GitHub无法访问问题</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近从学校回到家打算使用家里的台式机来学习，但是下载完<code>Git</code>时候，使用git push发现总是等待长时间之后会返回Failed to connect to github.com port 443: Operation timed out错误，然后全程懵逼，不管git push/pull还是git clone都是全程超时(一脸懵逼)</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>经过这两天的搜索终于从网上搜索到几种办法，在这里记录下，同时也分享给需要的小伙伴：</p><h3 id="情况一："><a href="#情况一：" class="headerlink" title="情况一："></a>情况一：</h3><p>这种情况是自己没有代理(科学上网)，可以使用UsbEAm Hosts Editor这款软件修改DNS地址选择最低的延迟从而达到可以访问GITHUB的目的(前提是<strong>Git没有设置代理！！！Git没有设置代理！！！Git没有设置代理！！！重要事情说三遍</strong>~ . ~，如果设置代理用下面命令行取消Git代理即可)</p><p>UsbEAm Hosts Editor<a href="https://www.dogfight360.com/blog/475/">下载地址</a></p><p>【附使用教程】UsbEAm Hosts Editor<a href="https://jingyan.baidu.com/article/eae07827e9bef65eec5485fc.html">使用教程</a></p><p>使用教程和以上教程类似，只需要选择Github即可，选择低延迟的DNS</p><p>修改完毕使用CMD命令 ipconfig /flushdns 刷新下本地DNS缓存数据 （需要管理员权限）</p><h3 id="情况二："><a href="#情况二：" class="headerlink" title="情况二："></a>情况二：</h3><p>这种情况与上面情况类似，但是不需要UsbEAm Hosts Editor软件,但是需要手动修改DNS</p><p><a href="https://juejin.cn/post/6844904193170341896">参考文档</a></p><h3 id="情况三："><a href="#情况三：" class="headerlink" title="情况三："></a>情况三：</h3><p>这种情况是自己有代理(科学上网)自己可以查询下本机的代理端口(不知道自己代理端口的建议谷歌搜索教程这里不再叙述了)，然后给Git设置代理端口如下命令：</p><blockquote><p>设置Git全局代理</p></blockquote><p>以下是设置socks端口命令</p><pre class="line-numbers language-Git"><code class="language-Git">git config --global http.proxy 'socks5://127.0.0.1:1080' // 1080替换成自己本机socks的端口名git config --global https.proxy 'socks5://127.0.0.1:1080' // 1080替换成自己本机socks的端口名<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>以下是设置http/s端口命令</p><pre class="line-numbers language-Git"><code class="language-Git">git config --global http.proxy 'http://127.0.0.1:1080' // 1080替换成自己本机http的端口名git config --global https.proxy 'http://127.0.0.1:1080' // 1080替换成自己本机https的端口名<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>以下是删除全局代理命令</p><pre class="line-numbers language-Git"><code class="language-Git">git config --global --unset http.proxygit config --global --unset https.proxy<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>以下是查看全局是否设置代理(如果没设置则不显示)</p><pre class="line-numbers language-Git"><code class="language-Git">git config --global --get http.proxygit config --global --get https.proxy<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="总结：以上三种情况结合自身而定，有时候git-push-pull-clone不上去有可能是网络问题，可以试试换下网络是否可以使用。"><a href="#总结：以上三种情况结合自身而定，有时候git-push-pull-clone不上去有可能是网络问题，可以试试换下网络是否可以使用。" class="headerlink" title="总结：以上三种情况结合自身而定，有时候git push/pull/clone不上去有可能是网络问题，可以试试换下网络是否可以使用。"></a>总结：以上三种情况结合自身而定，有时候git push/pull/clone不上去有可能是网络问题，可以试试换下网络是否可以使用。</h3>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h2&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;解决git-push-pull-clone操作时的443错误-GitHub无法访问问题&quot;&gt;&lt;a href=&quot;#解决git-push-pull-clone操作时的443错误-GitHub无法访问问题&quot; class=&quot;headerlink&quot; title=&quot;解决git </summary>
       
     
     
     
-    <category term="测试" scheme="https://xrebirth.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    <category term="git" scheme="https://xrebirth.github.io/categories/git/"/>
     
     
-    <category term="测试" scheme="https://xrebirth.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="git问题" scheme="https://xrebirth.github.io/tags/git%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   

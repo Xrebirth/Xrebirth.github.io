@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xrebirth.github.io/posts/9eb11de.html</loc>
+    <loc>https://xrebirth.github.io/posts/6204da2e.html</loc>
     
     <lastmod>2021-06-23</lastmod>
     
@@ -354,13 +354,6 @@
   </url>
   
   <url>
-    <loc>https://xrebirth.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2021-06-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xrebirth.github.io/tags/Git/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
@@ -369,6 +362,13 @@
   
   <url>
     <loc>https://xrebirth.github.io/tags/Github/</loc>
+    <lastmod>2021-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xrebirth.github.io/tags/git%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -412,13 +412,6 @@
   </url>
   
   <url>
-    <loc>https://xrebirth.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2021-06-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xrebirth.github.io/categories/Git/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
@@ -427,6 +420,13 @@
   
   <url>
     <loc>https://xrebirth.github.io/categories/Github/</loc>
+    <lastmod>2021-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xrebirth.github.io/categories/git/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
