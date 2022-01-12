@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xrebirth.github.io/posts/8a71e742.html</loc>
+    
+    <lastmod>2022-01-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://xrebirth.github.io/posts/c70e09ea.html</loc>
     
     <lastmod>2022-01-12</lastmod>
@@ -739,14 +746,14 @@
   </url>
   
   <url>
-    <loc>https://xrebirth.github.io/tags/Java/</loc>
+    <loc>https://xrebirth.github.io/tags/JSError/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xrebirth.github.io/tags/JSError/</loc>
+    <loc>https://xrebirth.github.io/tags/Java/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
